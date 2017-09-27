@@ -1,0 +1,374 @@
+Log file open, 06/16/14 06:03:40
+LogInit:Display: Running engine for game: Base_Project
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.06.16-05.03.40:088][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.06.16-05.03.40:124][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.16-05.03.40:133][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.16-05.03.40:142][  0]LogInit: Object subsystem initialized
+[2014.06.16-05.03.40:144][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.16-05.03.40:144][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.16-05.03.40:150][  0]LogInit: Computer: SHAUN-PC
+[2014.06.16-05.03.40:150][  0]LogInit: User: Shaun
+[2014.06.16-05.03.40:150][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.06.16-05.03.40:150][  0]LogInit: High frequency timer resolution =3.027421 MHz
+[2014.06.16-05.03.40:151][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx) Virtual=8192.0GB
+[2014.06.16-05.03.40:151][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.16-05.03.40:151][  0]LogMemory: Process Physical Memory: 53.75 MB used, 53.75 MB peak
+[2014.06.16-05.03.40:151][  0]LogMemory: Process Virtual Memory: 30.09 MB used, 30.40 MB peak
+[2014.06.16-05.03.40:151][  0]LogMemory: Physical Memory: 1976.61 MB used, 3839.18 MB total
+[2014.06.16-05.03.40:151][  0]LogMemory: Virtual Memory: 236.60 MB used, 8388608.00 MB total
+[2014.06.16-05.03.40:191][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2014.06.16-05.03.40:191][  0]LogD3D11RHI: Adapter has 1974MB of dedicated video memory, 0MB of dedicated system memory, and 1663MB of shared system memory, 1 output[s]
+[2014.06.16-05.03.40:191][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.16-05.03.40:201][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.06.16-05.03.40:222][  0]LogD3D11RHI: Async texture creation enabled
+[2014.06.16-05.03.40:334][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.16-05.03.41:581][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.16-05.03.41:684][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.16-05.03.41:723][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.16-05.03.41:837][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.16-05.03.41:837][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.06.16-05.03.41:837][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.16-05.03.41:837][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.16-05.03.41:852][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.06.16-05.03.41:864][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.06.16-05.03.42:093][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.16-05.03.42:093][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.16-05.03.42:606][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.16-05.03.43:007][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.06.16-05.03.43:007][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.06.16-05.03.43:012][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.06.16-05.03.43:012][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.06.16-05.03.43:320][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.16-05.03.43:394][  0]SourceControl: Info Source control is disabled
+[2014.06.16-05.03.43:394][  0]SourceControl: Info Source control is disabled
+[2014.06.16-05.03.43:399][  0]SourceControl: Info Source control is disabled
+[2014.06.16-05.03.43:498][  0]BlueprintLog: New page: Editor Load
+[2014.06.16-05.03.43:532][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.06.16-05.03.43:532][  0]LogUObjectAllocator: 3804656 out of 0 bytes used by permanent object pool.
+[2014.06.16-05.03.44:028][  0]LogEngine: Initializing Engine...
+[2014.06.16-05.03.44:174][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.06.16-05.03.44:199][  0]LogInit: FAudioDevice initialized.
+[2014.06.16-05.03.44:252][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.16-05.03.44:273][  0]LogInit: Texture streaming: Enabled
+[2014.06.16-05.03.44:298][  0]LogInit: Transaction tracking system initialized
+[2014.06.16-05.03.44:395][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.06.16-05.03.44:573][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.16-05.03.44:577][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.16-05.03.44:623][  0]LogConsoleResponse:Display: 
+[2014.06.16-05.03.44:865][  0]SourceControl: Info Source control is disabled
+[2014.06.16-05.03.44:866][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.16-05.03.44:866][  0]LightingResults: New page: Lighting Build
+[2014.06.16-05.03.44:872][  0]MapCheck: New page: Map Check
+[2014.06.16-05.03.44:872][  0]LightingResults: New page: Lighting Build
+[2014.06.16-05.03.44:890][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F4700E0
+[2014.06.16-05.03.45:074][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.16-05.03.45:074][  0]Cmd: MAP CHECKDEP
+[2014.06.16-05.03.45:074][  0]MapCheck: New page: Untitled_1 - 16 Jun 2014 07:03:45
+[2014.06.16-05.03.45:108][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [33.76ms] ==========
+[2014.06.16-05.03.45:108][  0]LogFileHelpers: Loading map 'Template_Default' took 0.243
+[2014.06.16-05.03.45:183][  0]LogCollectionManager: Loaded 0 collections in 0.001006 seconds
+[2014.06.16-05.03.45:340][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.16-05.03.45:341][  0]Cmd: MODE PLACEMENT
+[2014.06.16-05.03.45:415][  0]LogLoad: Full Startup: 6.12 seconds (BP compile: 0.07 seconds)
+[2014.06.16-05.03.45:429][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-05.03.45:563][  0]LogRenderer:Warning: Reallocating scene render targets to support 840x720.
+[2014.06.16-05.03.45:697][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5B1F91BDCAF50298</RequestId><HostId>lvw5rdP/vjaDpxe+yyHlAORBoL8gnCY7dF8rYyxwn3HjBZKnhNvprkAJ9t0CEifV</HostId></Error>
+[2014.06.16-05.03.45:773][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0976B7E008A0C712</RequestId><HostId>cBIx2WSH72LMxSGmx3aaQEB5KSWga29IWdf1L9lYNHnD2lkO2BlQJW5mzRDOKwHw</HostId></Error>
+[2014.06.16-05.03.45:778][  2]LogAssetRegistry: Asset discovery search completed in 1.3934 seconds
+[2014.06.16-05.03.45:805][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>95D3BDEEE2236A4B</RequestId><HostId>cYyc0wspoJ65hLZ/9TGk++IR63Sa3NnInSjRP51ygcUX3hkkyK+Ntol8DCWTX0O/</HostId></Error>
+[2014.06.16-05.03.45:879][  6]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.16-05.03.45:892][  7]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>167FB6C083EDDF7B</RequestId><HostId>xa0+FkmTF1M/cPXEyvWC31yBtvYzXoRLY6DCX+UxeXzD8CJdHKe1NNOfdU5zBFRoQN+sSfGKmeE=</HostId></Error>
+[2014.06.16-05.03.46:185][ 24]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EA67F75E2245C464</RequestId><HostId>Nkbff+8luMOEHBGrnR/31yP0OVSGU/7FP0EAHHFzqtYe2PM0AaHbyjPGu5QESbWX</HostId></Error>
+[2014.06.16-05.03.51:633][565]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-05.03.53:499][764]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-05.03.57:144][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-05.03.59:407][322]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-05.04.00:430][432]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-05.04.01:202][515]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-05.04.02:448][649]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-05.04.09:688][ 81]LogOutputDevice: === Handled error: ===
+Ensure condition failed: SkelMeshResource [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Editor\UnrealEd\Private\Animation\DebugSkelMeshComponent.cpp] [Line: 483]
+
+Stack: Address = 0xef6fd866 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef5a2101 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe2eac5fa (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe2ebe954 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe964decc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9650ce4 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xed7d3b1b (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe9650c65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xed821593 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed8001f8 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeffdbfdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xed7f54b9 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed8002ec (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed9fc82a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeda1cc65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed82b35c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed820fdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6a0ddd (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef690b81 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef6a1e9f (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef68df62 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76d59bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76d598da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xef6a2296 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f12795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f11d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f11d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f129119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f129fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76c359ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.06.16-05.04.18:723][591]LogRenderer:Warning: Reallocating scene render targets to support 896x720.
+[2014.06.16-05.04.19:376][615]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-05.04.22:351][784]LogOutputDevice: === Handled error: ===
+Ensure condition failed: SkelMeshResource [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Editor\UnrealEd\Private\Animation\DebugSkelMeshComponent.cpp] [Line: 483]
+
+Stack: Address = 0xef6fd866 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef5a2101 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe2eac5fa (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe2ebe954 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe964decc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9650ce4 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xed7d3b1b (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe9650c65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xed821593 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed8001f8 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeffdbfdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xed7f54b9 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed8002ec (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed9fc82a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeda1cc65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed82b35c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed820fdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6a0ddd (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef690b81 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef6a1e9f (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef68df62 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76d59bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76d598da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xef6a2296 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f12795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f11d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f11d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f129119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f129fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76c359ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.06.16-05.04.23:674][910]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-05.04.24:247][965]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-05.04.26:046][136]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-05.04.27:165][257]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-05.04.29:429][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-05.04.30:719][646]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Meshes'
+[2014.06.16-05.04.32:184][777]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-05.04.36:948][ 26]LogOutputDevice: === Handled error: ===
+Ensure condition failed: SkelMeshResource [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Editor\UnrealEd\Private\Animation\DebugSkelMeshComponent.cpp] [Line: 483]
+
+Stack: Address = 0xef6fd866 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef5a2101 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe2eac5fa (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe2ebe954 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Persona.dll]
+Address = 0xe964decc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9650ce4 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xed7d3b1b (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe9650c65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xed821593 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed8001f8 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeffdbfdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xed7f54b9 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed8002ec (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed9fc82a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xeda1cc65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed82b35c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed820fdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6a0ddd (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef690b81 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef6a1e9f (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xef68df62 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76d59bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76d598da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xef6a2296 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f12795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f11d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f11d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f129119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f129fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76c359ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.06.16-05.04.51:817][645]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-05.04.52:290][697]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-05.04.52:755][747]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-05.04.55:870][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1A45E0
+[2014.06.16-05.04.55:870][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010829080
+[2014.06.16-05.04.56:035][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A1A7240
+[2014.06.16-05.04.56:375][ 69]Cmd: QUIT_EDITOR
+[2014.06.16-05.04.56:456][ 69]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.06.16-05.04.56:456][ 69]LogExit: Preparing to exit.
+[2014.06.16-05.04.57:483][ 69]LogExit: Editor shut down
+[2014.06.16-05.04.57:484][ 69]LogExit: Transaction tracking system shut down
+[2014.06.16-05.04.57:485][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009C1C400
+[2014.06.16-05.04.57:515][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009E3E700
+[2014.06.16-05.04.57:515][ 69]LogExit: Object subsystem successfully closed.
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.06.16-05.04.57:556][ 69]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.06.16-05.04.57:562][ 69]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.06.16-05.04.57:563][ 69]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.06.16-05.04.57:564][ 69]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.06.16-05.04.57:592][ 69]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.06.16-05.04.57:592][ 69]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.06.16-05.04.57:592][ 69]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.06.16-05.04.57:592][ 69]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.06.16-05.04.57:592][ 69]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.06.16-05.04.57:593][ 69]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.06.16-05.04.57:692][ 69]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.06.16-05.04.57:692][ 69]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.06.16-05.04.57:692][ 69]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.06.16-05.04.57:692][ 69]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.06.16-05.04.57:692][ 69]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.06.16-05.04.57:692][ 69]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.06.16-05.04.57:693][ 69]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.06.16-05.04.57:695][ 69]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.06.16-05.04.57:696][ 69]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.06.16-05.04.57:723][ 69]LogDerivedDataCache: Shutdown
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.06.16-05.04.57:723][ 69]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.06.16-05.04.57:729][ 69]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.06.16-05.04.57:729][ 69]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.06.16-05.04.57:729][ 69]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.06.16-05.04.57:729][ 69]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.06.16-05.04.57:729][ 69]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.06.16-05.04.57:829][ 69]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.06.16-05.04.57:829][ 69]LogExit: Exiting.
+[2014.06.16-05.04.57:833][ 69]Log file closed, 06/16/14 06:04:57

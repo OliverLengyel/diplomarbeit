@@ -1,0 +1,503 @@
+Log file open, 06/16/14 05:20:17
+LogInit:Display: Running engine for game: Base_Project
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.06.16-04.20.17:958][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.06.16-04.20.17:984][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.16-04.20.17:991][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.16-04.20.18:000][  0]LogInit: Object subsystem initialized
+[2014.06.16-04.20.18:002][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.16-04.20.18:002][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.16-04.20.18:007][  0]LogInit: Computer: SHAUN-PC
+[2014.06.16-04.20.18:007][  0]LogInit: User: Shaun
+[2014.06.16-04.20.18:007][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.06.16-04.20.18:007][  0]LogInit: High frequency timer resolution =3.027421 MHz
+[2014.06.16-04.20.18:008][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx) Virtual=8192.0GB
+[2014.06.16-04.20.18:008][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.16-04.20.18:008][  0]LogMemory: Process Physical Memory: 53.78 MB used, 53.78 MB peak
+[2014.06.16-04.20.18:008][  0]LogMemory: Process Virtual Memory: 30.08 MB used, 30.40 MB peak
+[2014.06.16-04.20.18:008][  0]LogMemory: Physical Memory: 2193.25 MB used, 3839.18 MB total
+[2014.06.16-04.20.18:008][  0]LogMemory: Virtual Memory: 236.60 MB used, 8388608.00 MB total
+[2014.06.16-04.20.18:040][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2014.06.16-04.20.18:040][  0]LogD3D11RHI: Adapter has 1974MB of dedicated video memory, 0MB of dedicated system memory, and 1663MB of shared system memory, 1 output[s]
+[2014.06.16-04.20.18:040][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.16-04.20.18:047][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.06.16-04.20.18:060][  0]LogD3D11RHI: Async texture creation enabled
+[2014.06.16-04.20.18:167][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.16-04.20.19:354][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.16-04.20.19:445][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.16-04.20.19:486][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.16-04.20.19:593][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.16-04.20.19:593][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.06.16-04.20.19:593][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.16-04.20.19:593][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.16-04.20.19:606][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.06.16-04.20.19:617][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.06.16-04.20.19:826][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.16-04.20.19:826][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.16-04.20.20:254][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.16-04.20.20:613][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.06.16-04.20.20:613][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.06.16-04.20.20:618][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.06.16-04.20.20:618][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.06.16-04.20.20:926][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.16-04.20.21:001][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.20.21:001][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.20.21:006][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.20.21:097][  0]BlueprintLog: New page: Editor Load
+[2014.06.16-04.20.21:132][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.06.16-04.20.21:132][  0]LogUObjectAllocator: 3804656 out of 0 bytes used by permanent object pool.
+[2014.06.16-04.20.21:647][  0]LogEngine: Initializing Engine...
+[2014.06.16-04.20.21:792][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.06.16-04.20.21:818][  0]LogInit: FAudioDevice initialized.
+[2014.06.16-04.20.21:872][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.16-04.20.21:893][  0]LogInit: Texture streaming: Enabled
+[2014.06.16-04.20.21:919][  0]LogInit: Transaction tracking system initialized
+[2014.06.16-04.20.22:016][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2014.06.16-04.20.22:165][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.16-04.20.22:171][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.16-04.20.22:216][  0]LogConsoleResponse:Display: 
+[2014.06.16-04.20.22:466][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.20.22:466][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.16-04.20.22:466][  0]LightingResults: New page: Lighting Build
+[2014.06.16-04.20.22:473][  0]MapCheck: New page: Map Check
+[2014.06.16-04.20.22:473][  0]LightingResults: New page: Lighting Build
+[2014.06.16-04.20.22:489][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001196C0E0
+[2014.06.16-04.20.22:672][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.16-04.20.22:672][  0]Cmd: MAP CHECKDEP
+[2014.06.16-04.20.22:672][  0]MapCheck: New page: Untitled_1 - 16 Jun 2014 06:20:22
+[2014.06.16-04.20.22:709][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [36.288ms] ==========
+[2014.06.16-04.20.22:709][  0]LogFileHelpers: Loading map 'Template_Default' took 0.243
+[2014.06.16-04.20.22:800][  0]LogCollectionManager: Loaded 0 collections in 0.000990 seconds
+[2014.06.16-04.20.22:958][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.16-04.20.22:959][  0]Cmd: MODE PLACEMENT
+[2014.06.16-04.20.23:045][  0]LogLoad: Full Startup: 5.97 seconds (BP compile: 0.07 seconds)
+[2014.06.16-04.20.23:061][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.20.23:191][  0]LogRenderer:Warning: Reallocating scene render targets to support 840x720.
+[2014.06.16-04.20.23:341][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CC4AB54FE5587F37</RequestId><HostId>0Wpo6JQlF5YtdOS5QL5rTz0Kcu/gUSNJsfnVpmooG610w8JdSfb/j6WG6LShTZow</HostId></Error>
+[2014.06.16-04.20.23:396][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>29A682D0F93B54E4</RequestId><HostId>8oJm4Qi0TNPpdBky5CJr8gX0/nA5XN03MNfZFB6arCstQ7YKizjm3YOodQtB5Dqc</HostId></Error>
+[2014.06.16-04.20.23:400][  2]LogAssetRegistry: Asset discovery search completed in 1.3942 seconds
+[2014.06.16-04.20.23:555][ 10]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>2E0E77F56CE60978</RequestId><HostId>F9ftyhh6UUCYdVuVBlUxNKslOaEPlfu5VOwiPxsLVZp+hSSemKW1xvq34vToPbjtuwH0r6+Jgis=</HostId></Error>
+[2014.06.16-04.20.23:586][ 12]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>29E0A9ACDF31D770</RequestId><HostId>hD+iRMG2mavMmQg2rktYoemJFucNgtsMKHFgJbhpN49O5W4LMlB2flNgiZFoalpm</HostId></Error>
+[2014.06.16-04.20.23:706][ 21]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.16-04.20.23:743][ 23]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>692A265FBFF1F594</RequestId><HostId>m6nbVMXbIbUFaeT0rawHiPGPipcOijm+oeJ+LuiQ7wyqO9FQVHGtnk/7kMAgXGr9</HostId></Error>
+[2014.06.16-04.20.27:732][457]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2014.06.16-04.20.29:641][674]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.20.31:408][869]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.20.33:041][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.20.34:866][235]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Meshes'
+[2014.06.16-04.20.37:594][455]LogTexture:Display: Building textures: T_Leather_N (BC5)
+[2014.06.16-04.20.39:311][455]LogTexture:Display: Building textures: T_Mask_Eye_Coat (AutoDXT)
+[2014.06.16-04.20.39:644][455]LogMaterial: Missing cached shader map for material M_Owen_Eyes, compiling.
+[2014.06.16-04.20.39:738][455]LogTexture:Display: Building textures: T_Fabric_Weave (DXT1)
+[2014.06.16-04.20.43:663][455]LogTexture:Display: Building textures: T_Fabric_Weave_N (BC5)
+[2014.06.16-04.20.44:397][455]LogTexture:Display: Building textures: T_Leather (DXT1)
+[2014.06.16-04.20.58:504][455]LogTexture:Display: Building textures: T_Metal_Metal01_D (AutoDXT)
+[2014.06.16-04.21.15:438][455]LogTexture:Display: Building textures: T_Metal_Metal01_N (BC5)
+[2014.06.16-04.21.18:348][455]LogTexture:Display: Building textures: T_Metal01 (DXT1)
+[2014.06.16-04.21.28:212][455]LogTexture:Display: Building textures: T_Coat_N (BC5)
+[2014.06.16-04.21.36:133][455]LogTexture:Display: Building textures: T_Mask_AO_01 (AutoDXT)
+[2014.06.16-04.21.50:451][455]LogTexture:Display: Building textures: T_Mask_Pants (AutoDXT)
+[2014.06.16-04.21.50:727][455]LogTexture:Display: Building textures: T_Mask_Shirt_Hands (AutoDXT)
+[2014.06.16-04.21.50:984][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.21.51:044][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.21.52:009][455]LogTexture:Display: Building textures: T_Pants_N (BC5)
+[2014.06.16-04.21.57:987][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.21.58:998][455]LogTexture:Display: Building textures: T_head_N (BC5)
+[2014.06.16-04.22.05:766][455]LogTexture:Display: Building textures: T_Mask_AO_02 (AutoDXT)
+[2014.06.16-04.22.15:291][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.22.15:513][455]LogTexture:Display: Building textures: T_Hand_N (BC5)
+[2014.06.16-04.22.16:984][455]LogTexture:Display: Building textures: T_Mask_AO_03 (AutoDXT)
+[2014.06.16-04.22.19:062][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.22.19:985][455]LogTexture:Display: Building textures: T_Shirt_N (BC5)
+[2014.06.16-04.22.26:120][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.22.26:918][455]LogTexture:Display: Building textures: T_Shoes_N (BC5)
+[2014.06.16-04.22.32:530][455]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.22.33:979][460]LogRenderer:Warning: Reallocating scene render targets to support 896x720.
+[2014.06.16-04.22.34:025][461]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.23.10:675][824]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.26.02:243][733]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.26.27:912][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2014.06.16-04.26.27:913][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2014.06.16-04.26.27:913][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2014.06.16-04.26.27:913][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2014.06.16-04.26.27:915][251]LogBlueprint:Warning: [compiler] Warning [0370.83] Compile of 3rdPersonPawn successful, but with 4 Warning(s) [in 3 ms]
+[2014.06.16-04.26.27:920][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2014.06.16-04.26.27:921][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2014.06.16-04.26.27:921][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2014.06.16-04.26.27:921][251]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2014.06.16-04.26.27:923][251]LogBlueprint:Warning: [compiler] Warning [0370.84] Compile of 3rdPersonPawn successful, but with 4 Warning(s) [in 3 ms]
+[2014.06.16-04.26.28:456][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.26.29:680][251]LogSavePackage: Save=1217.206665ms
+[2014.06.16-04.26.29:681][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/OwenB9F6BE174D417556C0EFD69E7E7DDB59.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.26.29:761][251]LogSavePackage: Save=64.715477ms
+[2014.06.16-04.26.29:762][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Physics89905EDB44C26643A99BCA963C9853CC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen_Physics.uasset'
+[2014.06.16-04.26.29:817][251]LogSavePackage: Save=40.545403ms
+[2014.06.16-04.26.29:817][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Skeleton3D93544C4DBF1BC037993B8E695AA1F7.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen_Skeleton.uasset'
+[2014.06.16-04.26.30:342][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017C9B920
+[2014.06.16-04.26.31:657][251]LogSavePackage: Save=725.749756ms
+[2014.06.16-04.26.31:657][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/3rdPersonPawnC7425F9F4C96DD4526B4D9AA28F94386.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn.uasset'
+[2014.06.16-04.26.31:869][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Run_Bwd" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Bwd.uasset" SILENT=true
+[2014.06.16-04.26.32:205][251]LogSavePackage: Save=32.767162ms
+[2014.06.16-04.26.32:207][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_Bwd345EBBE74691F00C2FDE0680CD04C2B9.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Bwd.uasset'
+[2014.06.16-04.26.32:220][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Run_Fwd" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Fwd.uasset" SILENT=true
+[2014.06.16-04.26.32:738][251]LogSavePackage: Save=46.579910ms
+[2014.06.16-04.26.32:738][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_Fwd6317DFF049D0836A12FA6E85C924DA24.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Fwd.uasset'
+[2014.06.16-04.26.33:184][251]LogSavePackage: Save=39.059319ms
+[2014.06.16-04.26.33:184][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Idle1D4607794AF90B6709A18FADA44A83E4.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Idle.uasset'
+[2014.06.16-04.26.33:563][251]LogSavePackage: Save=16.056570ms
+[2014.06.16-04.26.33:563][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Idle_ModifyBonesDEFD0042442434CE0BD2F3BB98FAE031.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones.uasset'
+[2014.06.16-04.26.33:964][251]LogSavePackage: Save=13.785001ms
+[2014.06.16-04.26.33:964][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_BwdE3175514424E57AD6C4E7A8357EE7D6D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Run_Bwd.uasset'
+[2014.06.16-04.26.34:371][251]LogSavePackage: Save=50.936424ms
+[2014.06.16-04.26.34:371][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_FwdAB0FF33D4CA8CBF1C4D27CABCC038EEC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Run_Fwd.uasset'
+[2014.06.16-04.26.34:723][251]LogSavePackage: Save=40.160915ms
+[2014.06.16-04.26.34:723][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_LeftAF175CBE4CD5786A09361D871D1AB8BF.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Run_Left.uasset'
+[2014.06.16-04.26.35:106][251]LogSavePackage: Save=12.518907ms
+[2014.06.16-04.26.35:106][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_RightF8BD47C04C9EB545360DBA98124137D1.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Run_Right.uasset'
+[2014.06.16-04.26.35:523][251]LogSavePackage: Save=15.498671ms
+[2014.06.16-04.26.35:523][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_Bwd43A9A29042F34E1A8DB4D7A820AF2DD4.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Walk_Bwd.uasset'
+[2014.06.16-04.26.35:949][251]LogSavePackage: Save=15.108239ms
+[2014.06.16-04.26.35:949][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_FwdDFC691B043561AE32393F6987247AB4A.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Walk_Fwd.uasset'
+[2014.06.16-04.26.36:363][251]LogSavePackage: Save=48.649658ms
+[2014.06.16-04.26.36:363][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_Left064A719641DA31DC1E7D87A7328CE138.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Walk_Left.uasset'
+[2014.06.16-04.26.36:814][251]LogSavePackage: Save=50.392067ms
+[2014.06.16-04.26.36:814][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_RightACEB17EC4E0BE40C8E5867B4D3AAB43C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/Walk_Right.uasset'
+[2014.06.16-04.26.37:190][251]LogSavePackage: Save=15.509901ms
+[2014.06.16-04.26.37:190][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CCE1D495544934A89E0F2565ABC2243869.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_CC.uasset'
+[2014.06.16-04.26.37:607][251]LogSavePackage: Save=16.480364ms
+[2014.06.16-04.26.37:607][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CD6F23795E483AC55B5777888EDD114A9D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_CD.uasset'
+[2014.06.16-04.26.37:986][251]LogSavePackage: Save=87.244225ms
+[2014.06.16-04.26.37:987][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CU113B033346FC427AF6C667B3B5FC5CA1.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_CU.uasset'
+[2014.06.16-04.26.38:508][251]LogSavePackage: Save=89.637024ms
+[2014.06.16-04.26.38:510][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBCCD8F647C45456DD3B26A42B8A3F6764D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBC.uasset'
+[2014.06.16-04.26.38:961][251]LogSavePackage: Save=45.687401ms
+[2014.06.16-04.26.38:961][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBD748305DA492933B1C610C488D1733B2B.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.uasset'
+[2014.06.16-04.26.39:839][251]LogSavePackage: Save=167.513535ms
+[2014.06.16-04.26.39:839][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBUAE38C1B5411417528D8517B99255EFBA.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBU.uasset'
+[2014.06.16-04.26.40:368][251]LogSavePackage: Save=15.885468ms
+[2014.06.16-04.26.40:368][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LCA1D2D1E04A8B139BD0642487D3E72064.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LC.uasset'
+[2014.06.16-04.26.40:935][251]LogSavePackage: Save=14.788164ms
+[2014.06.16-04.26.40:935][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LD63086C6C4EF84D9AD69CF8AD79816930.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LD.uasset'
+[2014.06.16-04.26.41:456][251]LogSavePackage: Save=59.310879ms
+[2014.06.16-04.26.41:456][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LUCAF15F334AD4D5062F622EA1064A8B0D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LU.uasset'
+[2014.06.16-04.26.42:290][251]LogSavePackage: Save=30.586100ms
+[2014.06.16-04.26.42:290][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RBC7F545A8E4F80E3B948B28BA2FF674F01.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBC.uasset'
+[2014.06.16-04.26.43:067][251]LogSavePackage: Save=18.478765ms
+[2014.06.16-04.26.43:067][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RBD6E9C003145390F1FAF542596068B980D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBD.uasset'
+[2014.06.16-04.26.43:889][251]LogSavePackage: Save=15.621217ms
+[2014.06.16-04.26.43:889][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RBU341FEB214D9888E2C03F1692DC9F5A3D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBU.uasset'
+[2014.06.16-04.26.44:491][251]LogSavePackage: Save=45.852890ms
+[2014.06.16-04.26.44:492][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RC1A3F56ED4132AAA19A9056B57900282F.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RC.uasset'
+[2014.06.16-04.26.45:313][251]LogSavePackage: Save=128.545715ms
+[2014.06.16-04.26.45:313][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RDB1004FAB46C98E0F610DB9B299943121.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RD.uasset'
+[2014.06.16-04.26.46:443][251]LogSavePackage: Save=114.629250ms
+[2014.06.16-04.26.46:448][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RU72057BB54AD0F117CBD326831EA5FB87.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RU.uasset'
+[2014.06.16-04.26.48:142][251]LogSavePackage: Save=901.682007ms
+[2014.06.16-04.26.48:142][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_ExampleBP7B7EE03C44E98196BB9910B3FA57857E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.uasset'
+[2014.06.16-04.26.49:325][251]LogSavePackage: Save=21.158604ms
+[2014.06.16-04.26.49:325][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset10C6B33D4FACFD4241A1F3B41956FA70.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.26.50:101][251]LogSavePackage: Save=163.574875ms
+[2014.06.16-04.26.50:101][251]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Locomotion_BlendspaceF80EF19F4F87F18913B764BCE9470D1E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset'
+[2014.06.16-04.27.34:951][286]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor)
+[2014.06.16-04.27.36:022][300]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor)
+[2014.06.16-04.27.36:978][323]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Surface_Owen'
+[2014.06.16-04.27.40:028][386]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Surface_Owen/Textures'
+[2014.06.16-04.27.46:127][506]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Test_shiz'
+[2014.06.16-04.27.48:219][541]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Test'
+[2014.06.16-04.27.49:927][555]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.06.16-04.27.50:829][561]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Levels'
+[2014.06.16-04.27.51:874][569]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Test'
+[2014.06.16-04.27.55:395][636]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.27.56:207][642]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2014.06.16-04.27.57:136][676]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.28.01:598][746]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Surface_Owen/MaterialLayers'
+[2014.06.16-04.28.01:847][747]LogMaterial: Missing cached shader map for material Material_0, compiling.
+[2014.06.16-04.28.01:985][748]LogMaterial: Missing cached shader map for material Material_1, compiling.
+[2014.06.16-04.28.02:121][749]LogMaterial: Missing cached shader map for material Material_2, compiling.
+[2014.06.16-04.28.02:360][750]LogMaterial: Missing cached shader map for material Material_3, compiling.
+[2014.06.16-04.28.12:259][942]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Surface_Owen'
+[2014.06.16-04.28.21:447][169]LogSavePackage: Save=460.424896ms
+[2014.06.16-04.28.21:448][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Mask_Eye_Coat22B9B16E4645A9065D31EEA2E7EE542E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Mask_Eye_Coat.uasset'
+[2014.06.16-04.28.22:111][169]LogSavePackage: Save=622.254395ms
+[2014.06.16-04.28.22:111][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/M_Owen_Eyes3DEA0E5C4095FE92627E409457ED73E8.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/M_Owen_Eyes.uasset'
+[2014.06.16-04.28.22:970][169]LogSavePackage: Save=806.748047ms
+[2014.06.16-04.28.22:971][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Fabric_WeaveEFD055194134306CB26E6D84056C3B1B.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Fabric_Weave.uasset'
+[2014.06.16-04.28.24:374][169]LogSavePackage: Save=1282.564209ms
+[2014.06.16-04.28.24:375][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Fabric_Weave_N9942E41445398EC333624091D36A0A1D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Fabric_Weave_N.uasset'
+[2014.06.16-04.28.25:138][169]LogSavePackage: Save=675.583923ms
+[2014.06.16-04.28.25:139][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/ML_FabricF8A04C8A4DDF9B08827D9CA4CD4FB518.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/MaterialLayers/ML_Fabric.uasset'
+[2014.06.16-04.28.26:262][169]LogSavePackage: Save=1046.444824ms
+[2014.06.16-04.28.26:262][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Leather0A9BA010496E93656DA272B5791AF143.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Leather.uasset'
+[2014.06.16-04.28.27:122][169]LogSavePackage: Save=818.389648ms
+[2014.06.16-04.28.27:122][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Leather_N2133899A4A6E3F3D8B8E1085F196CA6E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Leather_N.uasset'
+[2014.06.16-04.28.27:870][169]LogSavePackage: Save=678.244263ms
+[2014.06.16-04.28.27:871][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/ML_Leather9B5269BB4AE6F13B9632E7B74DEA7104.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/MaterialLayers/ML_Leather.uasset'
+[2014.06.16-04.28.29:410][169]LogSavePackage: Save=1505.006348ms
+[2014.06.16-04.28.29:412][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Metal_Metal01_D373548F44B1DED4B093D41A9312E2527.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Metal_Metal01_D.uasset'
+[2014.06.16-04.28.29:903][169]LogSavePackage: Save=459.006195ms
+[2014.06.16-04.28.29:904][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Metal_Metal01_N45A670F64D2FDC529F04DE8358E79E25.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Metal_Metal01_N.uasset'
+[2014.06.16-04.28.31:037][169]LogSavePackage: Save=678.789978ms
+[2014.06.16-04.28.31:037][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/ML_Metal_B932E34FA4AEC6304C00E4195B12AA6FB.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/MaterialLayers/ML_Metal_B.uasset'
+[2014.06.16-04.28.31:927][169]LogSavePackage: Save=838.432434ms
+[2014.06.16-04.28.31:927][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Metal01F66A85E3442519F45EE96490F6F3E5D7.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Metal01.uasset'
+[2014.06.16-04.28.32:757][169]LogSavePackage: Save=743.108093ms
+[2014.06.16-04.28.32:757][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/ML_Plastic5EBFBA0442BE7104F56150BBDDEDD59F.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/MaterialLayers/ML_Plastic.uasset'
+[2014.06.16-04.28.34:098][169]LogSavePackage: Save=1307.606079ms
+[2014.06.16-04.28.34:099][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Coat_N88D829184C0141E7C8D9AB887159FC5A.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Coat_N.uasset'
+[2014.06.16-04.28.34:763][169]LogSavePackage: Save=630.083801ms
+[2014.06.16-04.28.34:763][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Mask_AO_01BFF734624D207784B48C6CA5CAD605AD.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Mask_AO_01.uasset'
+[2014.06.16-04.28.35:011][169]LogSavePackage: Save=217.435562ms
+[2014.06.16-04.28.35:012][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Mask_Pants3BFAC563415E457A5BAC26899740AFDD.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Mask_Pants.uasset'
+[2014.06.16-04.28.35:243][169]LogSavePackage: Save=199.561600ms
+[2014.06.16-04.28.35:243][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Mask_Shirt_Hands9BDCD9034AFF3296BD90ABB4CA07FFA5.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Mask_Shirt_Hands.uasset'
+[2014.06.16-04.28.35:755][169]LogSavePackage: Save=384.271973ms
+[2014.06.16-04.28.35:755][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/M_Owen_MasterF5D0DB0A4DE521F7210081AB5D7BD436.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/M_Owen_Master.uasset'
+[2014.06.16-04.28.37:079][169]LogSavePackage: Save=1139.570923ms
+[2014.06.16-04.28.37:079][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Pants_N70CB026D4CC1B32188958D8BF81B8011.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Pants_N.uasset'
+[2014.06.16-04.28.37:759][169]LogSavePackage: Save=635.959106ms
+[2014.06.16-04.28.37:759][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/M_Owen_Pants_InstA1279601461805219CAD34976536194C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/M_Owen_Pants_Inst.uasset'
+[2014.06.16-04.28.38:372][169]LogSavePackage: Save=522.032104ms
+[2014.06.16-04.28.38:372][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Coat_Inst4C95803B4A16D6C2F059A9BB59418428.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Coat_Inst.uasset'
+[2014.06.16-04.28.40:425][169]LogSavePackage: Save=1900.748169ms
+[2014.06.16-04.28.40:462][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_head_N6BA9E6B34B5BE4E2C39CC2AEE51AD124.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_head_N.uasset'
+[2014.06.16-04.28.42:188][169]LogSavePackage: Save=1537.535767ms
+[2014.06.16-04.28.42:193][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Mask_AO_026A3D887C4C32A6AFB0C01AA56CB31370.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Mask_AO_02.uasset'
+[2014.06.16-04.28.43:404][169]LogSavePackage: Save=664.614868ms
+[2014.06.16-04.28.43:482][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Head_Inst722C595E4E274F5AA5A2378596C7CBB1.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Head_Inst.uasset'
+[2014.06.16-04.28.44:041][169]LogSavePackage: Save=385.459778ms
+[2014.06.16-04.28.44:075][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Hand_N339ABCBB4BC18E59B1B620AA26E2BCD6.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Hand_N.uasset'
+[2014.06.16-04.28.44:859][169]LogSavePackage: Save=689.914917ms
+[2014.06.16-04.28.44:859][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Mask_AO_03EBA63D6E4D62E7E88921508D24216C99.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Mask_AO_03.uasset'
+[2014.06.16-04.28.45:804][169]LogSavePackage: Save=796.773254ms
+[2014.06.16-04.28.45:805][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Head_Hands_Inst7521B662475C6956C59E6588B07AE0C4.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Head_Hands_Inst.uasset'
+[2014.06.16-04.28.47:603][169]LogSavePackage: Save=1630.074219ms
+[2014.06.16-04.28.47:603][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Shirt_N5435CE384033FF70ECC230A1517FDDAE.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Shirt_N.uasset'
+[2014.06.16-04.28.48:437][169]LogSavePackage: Save=691.766357ms
+[2014.06.16-04.28.48:437][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Shirt_Inst96926A56469E02D6FCF7B3B53235955E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Shirt_Inst.uasset'
+[2014.06.16-04.28.49:522][169]LogSavePackage: Save=956.413086ms
+[2014.06.16-04.28.49:523][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/T_Shoes_N708BBCD648B24A8D55229799CEA9AD6B.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Textures/T_Shoes_N.uasset'
+[2014.06.16-04.28.51:229][169]LogSavePackage: Save=1434.573242ms
+[2014.06.16-04.28.51:239][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Shoes_InstE0F4FE56430E66508FA331B1EEDB8F88.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Shoes_Inst.uasset'
+[2014.06.16-04.28.51:409][169]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.06.16-04.28.56:099][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.28.57:103][169]LogSavePackage: Save=621.389282ms
+[2014.06.16-04.28.57:103][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen1AB90D4E47246D4350B222A0AAC780EC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.28.57:114][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.28.58:104][169]LogSavePackage: Save=683.119080ms
+[2014.06.16-04.28.58:104][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen4B9564E34E2668B08FF9259802D9E090.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.28.58:116][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.28.59:138][169]LogSavePackage: Save=594.128784ms
+[2014.06.16-04.28.59:138][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/OwenB4A9BE9548202A6F51A46EBAEFC3A3C2.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.28.59:182][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.29.00:285][169]LogSavePackage: Save=685.024658ms
+[2014.06.16-04.29.00:285][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/OwenC29693BA4FA5F44AE83F3F9D1D480BAD.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.29.00:330][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.29.01:319][169]LogSavePackage: Save=569.124695ms
+[2014.06.16-04.29.01:319][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen1F823F9F4C7EF58755A0FE8CEE3FCA75.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.29.01:328][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.29.02:406][169]LogSavePackage: Save=719.482361ms
+[2014.06.16-04.29.02:406][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen4F36486F4A49683D81029D9751146B7C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.29.02:417][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Base_Character/Owen" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset" SILENT=true
+[2014.06.16-04.29.03:434][169]LogSavePackage: Save=676.514099ms
+[2014.06.16-04.29.03:434][169]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen1DF57F474DD9BC993D755AA92A0827F9.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen.uasset'
+[2014.06.16-04.29.03:444][169]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.16-04.29.03:445][169]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen'
+[2014.06.16-04.30.31:264][313]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2014.06.16-04.30.31:865][342]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.30.32:359][364]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.30.32:978][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.30.33:533][410]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.34:120][430]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.34:574][444]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Meshes'
+[2014.06.16-04.30.35:914][501]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.36:392][521]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.37:185][554]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.30.37:811][577]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.30.39:892][645]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-04.30.40:614][672]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.30.41:301][697]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.42:067][728]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.42:537][747]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Meshes'
+[2014.06.16-04.30.43:002][764]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.43:782][797]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.44:524][829]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.44:857][847]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Meshes'
+[2014.06.16-04.30.45:409][874]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.45:941][903]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.46:626][929]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.30.51:369][133]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.52:011][156]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.30.53:190][205]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.53:469][218]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.53:878][231]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Meshes'
+[2014.06.16-04.30.54:423][256]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.30.55:123][286]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.30.55:403][299]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.30.56:968][360]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-04.30.57:401][380]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.30.59:529][465]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-04.31.00:109][489]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.31.07:935][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Idle" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Idle.uasset" SILENT=true
+[2014.06.16-04.31.07:959][818]LogSavePackage: Save=18.699745ms
+[2014.06.16-04.31.07:959][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/IdleB2F6ED334EF3237A337605A806183BC2.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Idle.uasset'
+[2014.06.16-04.31.07:972][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Idle_ModifyBones" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Idle_ModifyBones.uasset" SILENT=true
+[2014.06.16-04.31.08:046][818]LogSavePackage: Save=70.897636ms
+[2014.06.16-04.31.08:046][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Idle_ModifyBones9FD168F74FB710D30C50F695FE667FBF.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Idle_ModifyBones.uasset'
+[2014.06.16-04.31.08:057][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Run_Left" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Left.uasset" SILENT=true
+[2014.06.16-04.31.08:075][818]LogSavePackage: Save=16.389196ms
+[2014.06.16-04.31.08:075][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_Left7518357A49F828DE32759BB61835D5FA.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Left.uasset'
+[2014.06.16-04.31.08:085][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Run_Right" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Right.uasset" SILENT=true
+[2014.06.16-04.31.08:103][818]LogSavePackage: Save=15.225831ms
+[2014.06.16-04.31.08:103][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_RightB637503F4D11EB151B8726A04A813B9C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Right.uasset'
+[2014.06.16-04.31.08:113][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Walk_Bwd" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Bwd.uasset" SILENT=true
+[2014.06.16-04.31.08:132][818]LogSavePackage: Save=16.323465ms
+[2014.06.16-04.31.08:132][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_BwdD39FA0504456B3BFBEBFEB8B1EE7401D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Bwd.uasset'
+[2014.06.16-04.31.08:142][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Walk_Fwd" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Fwd.uasset" SILENT=true
+[2014.06.16-04.31.08:227][818]LogSavePackage: Save=83.083588ms
+[2014.06.16-04.31.08:227][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_FwdB93D968544D7846ABAEFD49171B82135.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Fwd.uasset'
+[2014.06.16-04.31.08:237][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Walk_Left" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Left.uasset" SILENT=true
+[2014.06.16-04.31.08:254][818]LogSavePackage: Save=15.603380ms
+[2014.06.16-04.31.08:254][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_Left80099EE44005F084CC582F832E6C8315.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Left.uasset'
+[2014.06.16-04.31.08:267][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Walk_Right" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Right.uasset" SILENT=true
+[2014.06.16-04.31.08:318][818]LogSavePackage: Save=24.890823ms
+[2014.06.16-04.31.08:318][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Walk_RightA2013F824A78BED321E3D38E9A2A62EA.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Walk_Right.uasset'
+[2014.06.16-04.31.08:370][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.06.16-04.31.10:113][818]LogSavePackage: Save=14.112672ms
+[2014.06.16-04.31.10:113][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CCE98FD692418165CC35678DBF7898F3EA.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_CC.uasset'
+[2014.06.16-04.31.10:498][818]LogSavePackage: Save=14.434729ms
+[2014.06.16-04.31.10:498][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CD3E5FCFE24C46CACBF8F6898632B1BD23.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_CD.uasset'
+[2014.06.16-04.31.10:846][818]LogSavePackage: Save=14.262965ms
+[2014.06.16-04.31.10:846][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CU336EC6074803B0A939908894CCBDB879.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_CU.uasset'
+[2014.06.16-04.31.11:303][818]LogSavePackage: Save=48.186558ms
+[2014.06.16-04.31.11:303][818]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBCC9FE3915459C34DAD008869C303A899E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBC.uasset'
+[2014.06.16-04.31.13:440][818]LogWindows:Error: appError called: Assertion failed: !HasAnyFlags(RF_NeedLoad|RF_NeedPostLoad) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectLinker.cpp] [Line: 94]
+Detaching from existing linker for ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.uasset while object AnimCompress_RemoveLinearKeys /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.AO_LBD:AnimCompress_RemoveLinearKeys_4 needs loaded
+Stack:
+Address = 0xed7cd866 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed66d275 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeffc9214 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xefef8e33 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff1b233 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff1b4d1 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff96991 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeb57046a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb635b52 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb632a4b (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb8fbd00 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb6a226c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb6ad471 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe3970cd3 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe39ba278 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe34208c2 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34af9a3 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34a9322 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34ad987 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xef5900a9 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef594d68 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef57799c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6dc82a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6fcc65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef50b35c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef500fdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed770ddd (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed760b81 (filename not
+[2014.06.16-04.31.13:441][818]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2014.06.16-04.31.13:452][818]LogCrashTracker: 
+
+
+[2014.06.16-04.31.23:258][818]LogCrashTracker: 
+
+
+[2014.06.16-04.31.23:258][818]LogWindows: === Critical error: ===
+Unhandled Exception: 0x00000001
+
+[2014.06.16-04.31.23:259][818]LogWindows: Assertion failed: !HasAnyFlags(RF_NeedLoad|RF_NeedPostLoad) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.2\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectLinker.cpp] [Line: 94]
+Detaching from existing linker for ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.uasset while object AnimCompress_RemoveLinearKeys /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.AO_LBD:AnimCompress_RemoveLinearKeys_4 needs loaded
+Stack:
+Address = 0xed7cd866 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed66d275 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeffc9214 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xefef8e33 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff1b233 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff1b4d1 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff96991 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeb57046a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb635b52 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb632a4b (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb8fbd00 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb6a226c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb6ad471 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe3970cd3 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe39ba278 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe34208c2 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34af9a3 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34a9322 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34ad987 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xef5900a9 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef594d68 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef57799c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6dc82a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6fcc65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef50b35c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef500fdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed770ddd (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed760b81 (filename not
+
+Address = 0xfccb940d (filename not found) [in C:\Windows\system32\KERNELBASE.dll]
+Address = 0xed7cc1dc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed67b94a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed66d320 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeffc9214 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xefef8e33 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff1b233 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff1b4d1 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeff96991 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xeb57046a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb635b52 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb632a4b (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb8fbd00 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb6a226c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xeb6ad471 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe3970cd3 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe39ba278 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-AssetTools.dll]
+Address = 0xe34208c2 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34af9a3 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34a9322 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xe34ad987 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-ContentBrowser.dll]
+Address = 0xef5900a9 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef594d68 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef57799c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6dc82a (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef6fcc65 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef50b35c (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef500fdc (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xed770ddd (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed760b81 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed771e9f (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xed75df62 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76d59bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76d598da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xed772296 (filename not found) [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3fe1795f + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launchengineloop.cpp:2073] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fe0d1ec + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\launch.cpp:132] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fe0d25a + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fe19119 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.2\engine\source\runtime\launch\private\windows\launchwindows.cpp:207] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fe19fa9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Unreal Engine 4\Unreal Engine\4.2\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x76c359ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x76e6c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.06.16-04.31.23:261][818]LogExit: Executing StaticShutdownAfterError
+[2014.06.16-04.31.23:283][818]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.06.16-04.31.23:283][818]Log file closed, 06/16/14 05:31:23

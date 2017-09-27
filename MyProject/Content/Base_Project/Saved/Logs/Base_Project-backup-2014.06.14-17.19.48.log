@@ -1,0 +1,858 @@
+Log file open, 06/14/14 17:02:43
+LogInit:Display: Running engine for game: Base_Project
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.06.14-16.02.43:758][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.06.14-16.02.43:784][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.14-16.02.43:792][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.14-16.02.43:807][  0]LogInit: Object subsystem initialized
+[2014.06.14-16.02.43:809][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.14-16.02.43:809][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.14-16.02.43:833][  0]LogInit: Computer: SHAUN-PC
+[2014.06.14-16.02.43:833][  0]LogInit: User: Shaun
+[2014.06.14-16.02.43:834][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.06.14-16.02.43:834][  0]LogInit: High frequency timer resolution =3.027392 MHz
+[2014.06.14-16.02.43:834][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx) Virtual=8192.0GB
+[2014.06.14-16.02.43:834][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.14-16.02.43:834][  0]LogMemory: Process Physical Memory: 53.87 MB used, 53.87 MB peak
+[2014.06.14-16.02.43:834][  0]LogMemory: Process Virtual Memory: 30.10 MB used, 30.41 MB peak
+[2014.06.14-16.02.43:834][  0]LogMemory: Physical Memory: 2848.29 MB used, 3839.18 MB total
+[2014.06.14-16.02.43:834][  0]LogMemory: Virtual Memory: 236.60 MB used, 8388608.00 MB total
+[2014.06.14-16.02.43:871][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2014.06.14-16.02.43:871][  0]LogD3D11RHI: Adapter has 1974MB of dedicated video memory, 0MB of dedicated system memory, and 1663MB of shared system memory, 1 output[s]
+[2014.06.14-16.02.43:871][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.14-16.02.43:881][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.06.14-16.02.43:890][  0]LogD3D11RHI: Async texture creation enabled
+[2014.06.14-16.02.44:006][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.14-16.02.45:187][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.14-16.02.45:281][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.14-16.02.45:319][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.14-16.02.45:426][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.14-16.02.45:426][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.06.14-16.02.45:426][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.14-16.02.45:426][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.14-16.02.45:439][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.06.14-16.02.45:450][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.06.14-16.02.45:661][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.14-16.02.45:661][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.14-16.02.46:092][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.14-16.02.46:467][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.06.14-16.02.46:467][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.06.14-16.02.46:472][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.06.14-16.02.46:472][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.06.14-16.02.46:788][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.14-16.02.46:864][  0]SourceControl: Info Source control is disabled
+[2014.06.14-16.02.46:864][  0]SourceControl: Info Source control is disabled
+[2014.06.14-16.02.46:869][  0]SourceControl: Info Source control is disabled
+[2014.06.14-16.02.46:963][  0]BlueprintLog: New page: Editor Load
+[2014.06.14-16.02.46:998][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.06.14-16.02.46:998][  0]LogUObjectAllocator: 3804648 out of 0 bytes used by permanent object pool.
+[2014.06.14-16.02.47:506][  0]LogEngine: Initializing Engine...
+[2014.06.14-16.02.47:659][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.06.14-16.02.47:668][  0]LogInit: FAudioDevice initialized.
+[2014.06.14-16.02.47:728][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.14-16.02.47:749][  0]LogInit: Texture streaming: Enabled
+[2014.06.14-16.02.47:788][  0]LogInit: Transaction tracking system initialized
+[2014.06.14-16.02.47:890][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2014.06.14-16.02.48:036][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.14-16.02.48:040][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.14-16.02.48:118][  0]LogConsoleResponse:Display: 
+[2014.06.14-16.02.48:442][  0]SourceControl: Info Source control is disabled
+[2014.06.14-16.02.48:442][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.14-16.02.48:442][  0]LightingResults: New page: Lighting Build
+[2014.06.14-16.02.48:451][  0]MapCheck: New page: Map Check
+[2014.06.14-16.02.48:451][  0]LightingResults: New page: Lighting Build
+[2014.06.14-16.02.48:467][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000115C80E0
+[2014.06.14-16.02.48:910][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.14-16.02.48:911][  0]Cmd: MAP CHECKDEP
+[2014.06.14-16.02.48:911][  0]MapCheck: New page: Untitled_1 - 14 Jun 2014 18:02:48
+[2014.06.14-16.02.48:972][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [60.65ms] ==========
+[2014.06.14-16.02.48:972][  0]LogFileHelpers: Loading map 'Template_Default' took 0.530
+[2014.06.14-16.02.49:114][  0]LogCollectionManager: Loaded 0 collections in 0.000981 seconds
+[2014.06.14-16.02.49:297][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.14-16.02.49:298][  0]Cmd: MODE PLACEMENT
+[2014.06.14-16.02.49:369][  0]LogLoad: Full Startup: 6.68 seconds (BP compile: 0.08 seconds)
+[2014.06.14-16.02.49:383][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.06.14-16.02.49:509][  0]LogRenderer:Warning: Reallocating scene render targets to support 840x720.
+[2014.06.14-16.02.49:686][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>352396EC49D420CB</RequestId><HostId>t5i9ZJSyP73DqlK5g0Oo6L22TMPNB4mFlPc5EGAJOwRfKBkKmNLKiWxGJwb7R7SP</HostId></Error>
+[2014.06.14-16.02.50:037][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CB64584B988162A8</RequestId><HostId>ChDqec7/tkTdgui2TBbd1YTRo5HPTLmddEVQBSnS9EJghEF+hXffYssOV4xqK00X</HostId></Error>
+[2014.06.14-16.02.50:042][  2]LogAssetRegistry: Asset discovery search completed in 2.1612 seconds
+[2014.06.14-16.02.50:080][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A4FCB7F3CCD39CF2</RequestId><HostId>xofz2cfmaMreiQJAhhEGAaKcn0rd4hoJz+4oTKXxm6rnSq2cLhTqHmsHMEr+/3WU</HostId></Error>
+[2014.06.14-16.02.50:101][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>114E9867ED90D196</RequestId><HostId>yI4VY/uS//jkV82uskcqt1yOTVNFohzKPLRLcl2mUtr7a2DTJ6Jeygp3ZulJTpH9</HostId></Error>
+[2014.06.14-16.02.50:224][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>CBEC3A751344F8AD</RequestId><HostId>0oZc8ocSHcSWlG21REetur12hnpbz5YQ5eNOKmf23866jE/ObYmAwBwbqy3jkT8K</HostId></Error>
+[2014.06.14-16.02.50:889][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.14-16.02.56:214][428]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-16.02.56:214][428]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:02:56)
+[2014.06.14-16.02.56:217][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002752s)
+[2014.06.14-16.02.56:218][428]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2014.06.14-16.02.56:218][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004095s)
+[2014.06.14-16.02.57:024][428]LogBlueprint:Warning: [Base_Player_Controller] CreatePinForVariable: 'ThirdPersonCamera' variable not found. Base class was probably changed.
+[2014.06.14-16.02.57:024][428]LogBlueprint:Warning: [Base_Player_Controller] CreatePinForVariable: 'CameraBoom' variable not found. Base class was probably changed.
+[2014.06.14-16.02.57:026][428]LogBlueprint:Warning: [Base_Player_Controller] CreatePinForVariable: 'CameraBoom' variable not found. Base class was probably changed.
+[2014.06.14-16.02.57:042][428]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'ThirdPersonCamera' for  Get ThirdPersonCamera 
+[2014.06.14-16.02.57:043][428]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'CameraBoom' for  Get CameraBoom 
+[2014.06.14-16.02.57:043][428]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'CameraBoom' for  Get CameraBoom 
+[2014.06.14-16.02.57:044][428]LogBlueprint:Error: [compiler] Error The property associated with  CameraBoom  could not be found
+[2014.06.14-16.02.57:047][428]LogBlueprint:Error: [compiler] Error The property associated with  CameraBoom  could not be found
+[2014.06.14-16.02.57:047][428]LogBlueprint:Error: [compiler] Error The property associated with  ThirdPersonCamera  could not be found
+[2014.06.14-16.02.57:048][428]LogBlueprint:Warning: [compiler] Warning [0014.36] Compile of Base_Player_Controller failed. 3 Fatal Issue(s) 3 Warning(s) [in 9 ms]
+[2014.06.14-16.02.57:855][428]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.02.58:065][428]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.02.58
+[2014.06.14-16.02.58:065][428]LogWorld: Bringing up level for play took: 0.001437
+[2014.06.14-16.02.58:066][428]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.06.14-16.02.58:066][428]LogGameMode: RestartPlayer 256
+[2014.06.14-16.02.58:154][428]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_0
+[2014.06.14-16.02.58:154][428]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_0
+[2014.06.14-16.02.58:160][428]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.041
+[2014.06.14-16.02.58:191][428]LogRenderer:Warning: Reallocating scene render targets to support 1512x736.
+[2014.06.14-16.03.01:645][686]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.06.14-16.03.01:717][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C301260
+[2014.06.14-16.03.06:374][ 94]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-16.03.07:745][ 94]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:03:07)
+[2014.06.14-16.03.07:747][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002597s)
+[2014.06.14-16.03.07:749][ 94]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2014.06.14-16.03.07:749][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004057s)
+[2014.06.14-16.03.07:749][ 94]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.03.07:787][ 94]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.03.07
+[2014.06.14-16.03.07:787][ 94]LogWorld: Bringing up level for play took: 0.001333
+[2014.06.14-16.03.07:788][ 94]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.06.14-16.03.07:788][ 94]LogGameMode: RestartPlayer 257
+[2014.06.14-16.03.07:789][ 94]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_1
+[2014.06.14-16.03.07:789][ 94]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_1
+[2014.06.14-16.03.07:794][ 94]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.675
+[2014.06.14-16.03.10:462][343]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.06.14-16.03.10:488][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C56F880
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.12:084][427]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.28:929][403]BlueprintLog: New page: Compile Base_Player_Controller
+[2014.06.14-16.03.29:014][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.06.14-16.03.29:641][403]BlueprintEditorCompileResults: Info [0046.25] Compile of Base_Player_Controller successful! [in 6 ms]
+[2014.06.14-16.03.31:072][481]BlueprintLog: New page: Compile Base_Character_BP
+[2014.06.14-16.03.31:817][481]BlueprintEditorCompileResults: Info [0048.44] Compile of Base_Character_BP successful! [in 46 ms]
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.31:842][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.03.32:837][499]LogSavePackage: Save=381.593475ms
+[2014.06.14-16.03.32:837][499]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP57338F134EEAA7DA4DF4E9B865BEEC7C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset'
+[2014.06.14-16.03.34:851][624]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-16.03.34:851][624]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.14-16.03.35:533][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.06.14-16.03.35:576][624]LogPlayLevel: PIE:  Blueprint regeneration took 724 ms (1 blueprints)
+[2014.06.14-16.03.35:576][624]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:03:35)
+[2014.06.14-16.03.35:580][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003883s)
+[2014.06.14-16.03.35:581][624]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2014.06.14-16.03.35:581][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.005119s)
+[2014.06.14-16.03.35:582][624]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.03.35:621][624]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.03.35
+[2014.06.14-16.03.35:622][624]LogWorld: Bringing up level for play took: 0.001380
+[2014.06.14-16.03.35:622][624]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.06.14-16.03.35:622][624]LogGameMode: RestartPlayer 258
+[2014.06.14-16.03.35:624][624]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_0
+[2014.06.14-16.03.35:624][624]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_0
+[2014.06.14-16.03.35:631][624]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.511
+[2014.06.14-16.03.46:220][388]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B708400
+[2014.06.14-16.04.00:526][206]BlueprintLog: New page: Compile Base_Character_BP
+[2014.06.14-16.04.00:631][206]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.06.14-16.04.01:251][206]BlueprintEditorCompileResults: Info [0077.89] Compile of Base_Character_BP successful! [in 43 ms]
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.01:276][206]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.04.02:123][248]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-16.04.02:123][248]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.14-16.04.02:804][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.06.14-16.04.02:848][248]LogPlayLevel: PIE:  Blueprint regeneration took 724 ms (1 blueprints)
+[2014.06.14-16.04.02:848][248]PIE: New page: SIE session: Untitled_1 (14 Jun 2014 18:04:02)
+[2014.06.14-16.04.02:851][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002405s)
+[2014.06.14-16.04.02:852][248]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2014.06.14-16.04.02:852][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003860s)
+[2014.06.14-16.04.02:853][248]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.04.02:886][248]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.04.02
+[2014.06.14-16.04.02:902][248]LogWorld: Bringing up level for play took: 0.017503
+[2014.06.14-16.04.02:903][248]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.06.14-16.04.02:905][248]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.785
+[2014.06.14-16.04.03:979][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C00360
+[2014.06.14-16.04.04:586][327]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-16.04.04:587][327]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:04:04)
+[2014.06.14-16.04.04:589][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002391s)
+[2014.06.14-16.04.04:591][327]LogPlayLevel: PIE: World Init took: (0.001889s)
+[2014.06.14-16.04.04:591][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004488s)
+[2014.06.14-16.04.04:591][327]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.04.04:627][327]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.04.04
+[2014.06.14-16.04.04:627][327]LogWorld: Bringing up level for play took: 0.001456
+[2014.06.14-16.04.04:628][327]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.06.14-16.04.04:628][327]LogGameMode: RestartPlayer 260
+[2014.06.14-16.04.04:629][327]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_0
+[2014.06.14-16.04.04:629][327]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_0
+[2014.06.14-16.04.04:637][327]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.482
+[2014.06.14-16.04.08:923][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C00540
+[2014.06.14-16.04.16:089][  2]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-16.04.16:089][  2]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:04:16)
+[2014.06.14-16.04.16:092][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002315s)
+[2014.06.14-16.04.16:093][  2]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2014.06.14-16.04.16:093][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003496s)
+[2014.06.14-16.04.16:093][  2]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.04.16:130][  2]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.04.16
+[2014.06.14-16.04.16:130][  2]LogWorld: Bringing up level for play took: 0.001292
+[2014.06.14-16.04.16:131][  2]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
+[2014.06.14-16.04.16:131][  2]LogGameMode: RestartPlayer 261
+[2014.06.14-16.04.16:133][  2]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_1
+[2014.06.14-16.04.16:133][  2]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_1
+[2014.06.14-16.04.16:140][  2]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.02
+[2014.06.14-16.04.32:697][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014B1EE80
+[2014.06.14-16.06.48:936][475]BlueprintLog: New page: Compile Base_Player_Controller
+[2014.06.14-16.06.49:588][475]BlueprintEditorCompileResults: Info [0246.26] Compile of Base_Player_Controller successful! [in 7 ms]
+[2014.06.14-16.06.50:407][514]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-16.06.50:408][514]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:06:50)
+[2014.06.14-16.06.50:410][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002415s)
+[2014.06.14-16.06.50:411][514]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2014.06.14-16.06.50:411][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003598s)
+[2014.06.14-16.06.50:412][514]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.06.50:450][514]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.06.50
+[2014.06.14-16.06.50:451][514]LogWorld: Bringing up level for play took: 0.001279
+[2014.06.14-16.06.50:452][514]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
+[2014.06.14-16.06.50:452][514]LogGameMode: RestartPlayer 262
+[2014.06.14-16.06.50:453][514]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_2
+[2014.06.14-16.06.50:453][514]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_2
+[2014.06.14-16.06.50:461][514]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.662
+[2014.06.14-16.06.51:164][546]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.06.51:183][547]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.06.51:219][549]LogBlueprintUserMessages: 90.0
+[2014.06.14-16.06.51:256][551]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.06.51:347][555]LogBlueprintUserMessages: 110.0
+[2014.06.14-16.06.51:508][563]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.06.51:724][574]LogBlueprintUserMessages: 110.0
+[2014.06.14-16.06.51:827][579]LogBlueprintUserMessages: 120.0
+[2014.06.14-16.06.52:089][592]LogBlueprintUserMessages: 130.0
+[2014.06.14-16.06.52:126][594]LogBlueprintUserMessages: 140.0
+[2014.06.14-16.06.52:148][595]LogBlueprintUserMessages: 150.0
+[2014.06.14-16.06.52:529][615]LogBlueprintUserMessages: 160.0
+[2014.06.14-16.06.52:550][616]LogBlueprintUserMessages: 170.0
+[2014.06.14-16.06.52:570][617]LogBlueprintUserMessages: 180.0
+[2014.06.14-16.06.52:591][618]LogBlueprintUserMessages: 190.0
+[2014.06.14-16.06.52:611][619]LogBlueprintUserMessages: 200.0
+[2014.06.14-16.06.52:650][621]LogBlueprintUserMessages: 210.0
+[2014.06.14-16.06.52:909][634]LogBlueprintUserMessages: 220.0
+[2014.06.14-16.06.53:326][655]LogBlueprintUserMessages: 230.0
+[2014.06.14-16.06.53:349][656]LogBlueprintUserMessages: 240.0
+[2014.06.14-16.06.53:749][676]LogBlueprintUserMessages: 250.0
+[2014.06.14-16.06.53:768][677]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.06.53:808][679]LogBlueprintUserMessages: 270.0
+[2014.06.14-16.06.53:826][680]LogBlueprintUserMessages: 280.0
+[2014.06.14-16.06.53:844][681]LogBlueprintUserMessages: 290.0
+[2014.06.14-16.06.53:880][683]LogBlueprintUserMessages: 300.0
+[2014.06.14-16.06.53:899][684]LogBlueprintUserMessages: 310.0
+[2014.06.14-16.06.54:269][702]LogBlueprintUserMessages: 320.0
+[2014.06.14-16.06.54:309][704]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.54:346][706]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.54:382][708]LogBlueprintUserMessages: 300.0
+[2014.06.14-16.06.54:401][709]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.54:657][722]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.54:695][724]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.54:778][728]LogBlueprintUserMessages: 300.0
+[2014.06.14-16.06.54:797][729]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.54:881][733]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.06.59:311][953]LogBlueprintUserMessages: 300.0
+[2014.06.14-16.06.59:348][955]LogBlueprintUserMessages: 290.0
+[2014.06.14-16.06.59:490][962]LogBlueprintUserMessages: 280.0
+[2014.06.14-16.06.59:531][964]LogBlueprintUserMessages: 270.0
+[2014.06.14-16.06.59:551][965]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.06.59:572][966]LogBlueprintUserMessages: 250.0
+[2014.06.14-16.06.59:633][969]LogBlueprintUserMessages: 240.0
+[2014.06.14-16.07.02:462][110]LogBlueprintUserMessages: 230.0
+[2014.06.14-16.07.02:500][112]LogBlueprintUserMessages: 220.0
+[2014.06.14-16.07.02:540][114]LogBlueprintUserMessages: 210.0
+[2014.06.14-16.07.02:559][115]LogBlueprintUserMessages: 200.0
+[2014.06.14-16.07.02:579][116]LogBlueprintUserMessages: 190.0
+[2014.06.14-16.07.02:599][117]LogBlueprintUserMessages: 180.0
+[2014.06.14-16.07.02:657][120]LogBlueprintUserMessages: 170.0
+[2014.06.14-16.07.02:945][134]LogBlueprintUserMessages: 160.0
+[2014.06.14-16.07.03:043][139]LogBlueprintUserMessages: 150.0
+[2014.06.14-16.07.03:338][154]LogBlueprintUserMessages: 140.0
+[2014.06.14-16.07.03:384][156]LogBlueprintUserMessages: 170.0
+[2014.06.14-16.07.03:404][157]LogBlueprintUserMessages: 140.0
+[2014.06.14-16.07.03:444][159]LogBlueprintUserMessages: 130.0
+[2014.06.14-16.07.03:734][173]LogBlueprintUserMessages: 160.0
+[2014.06.14-16.07.03:774][175]LogBlueprintUserMessages: 170.0
+[2014.06.14-16.07.03:794][176]LogBlueprintUserMessages: 180.0
+[2014.06.14-16.07.03:833][178]LogBlueprintUserMessages: 190.0
+[2014.06.14-16.07.03:852][179]LogBlueprintUserMessages: 200.0
+[2014.06.14-16.07.05:734][273]LogBlueprintUserMessages: 210.0
+[2014.06.14-16.07.31:131][535]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C03420
+[2014.06.14-16.07.40:466][988]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-16.07.40:466][988]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:07:40)
+[2014.06.14-16.07.40:469][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002641s)
+[2014.06.14-16.07.40:470][988]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2014.06.14-16.07.40:470][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003856s)
+[2014.06.14-16.07.40:472][988]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.07.40:513][988]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.07.40
+[2014.06.14-16.07.40:513][988]LogWorld: Bringing up level for play took: 0.001335
+[2014.06.14-16.07.40:514][988]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
+[2014.06.14-16.07.40:514][988]LogGameMode: RestartPlayer 263
+[2014.06.14-16.07.40:515][988]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_3
+[2014.06.14-16.07.40:515][988]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_3
+[2014.06.14-16.07.40:524][988]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.6
+[2014.06.14-16.07.43:081][112]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.07.43:202][118]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.07.43:456][131]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.07.43:495][133]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.07.43:515][134]LogBlueprintUserMessages: 90.0
+[2014.06.14-16.07.43:535][135]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.07.43:618][139]LogBlueprintUserMessages: 110.0
+[2014.06.14-16.07.43:950][154]LogBlueprintUserMessages: 120.0
+[2014.06.14-16.07.43:992][156]LogBlueprintUserMessages: 130.0
+[2014.06.14-16.07.44:061][159]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.07.44:580][183]LogBlueprintUserMessages: 90.0
+[2014.06.14-16.07.44:642][186]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.07.44:710][189]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.07.46:085][257]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.07.46:111][258]LogBlueprintUserMessages: 110.0
+[2014.06.14-16.07.46:132][259]LogBlueprintUserMessages: 120.0
+[2014.06.14-16.07.46:157][260]LogBlueprintUserMessages: 130.0
+[2014.06.14-16.07.46:199][262]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.07.46:220][263]LogBlueprintUserMessages: 130.0
+[2014.06.14-16.07.46:559][278]LogBlueprintUserMessages: 140.0
+[2014.06.14-16.07.46:603][280]LogBlueprintUserMessages: 150.0
+[2014.06.14-16.07.46:646][282]LogBlueprintUserMessages: 160.0
+[2014.06.14-16.07.48:090][349]LogBlueprintUserMessages: 170.0
+[2014.06.14-16.07.48:148][352]LogBlueprintUserMessages: 180.0
+[2014.06.14-16.07.48:170][353]LogBlueprintUserMessages: 190.0
+[2014.06.14-16.07.48:194][354]LogBlueprintUserMessages: 200.0
+[2014.06.14-16.07.48:260][357]LogBlueprintUserMessages: 210.0
+[2014.06.14-16.07.48:284][358]LogBlueprintUserMessages: 220.0
+[2014.06.14-16.07.48:639][374]LogBlueprintUserMessages: 230.0
+[2014.06.14-16.07.48:663][375]LogBlueprintUserMessages: 240.0
+[2014.06.14-16.07.48:728][378]LogBlueprintUserMessages: 250.0
+[2014.06.14-16.07.48:750][379]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.07.48:835][383]LogBlueprintUserMessages: 270.0
+[2014.06.14-16.07.48:858][384]LogBlueprintUserMessages: 280.0
+[2014.06.14-16.07.49:694][422]LogBlueprintUserMessages: 290.0
+[2014.06.14-16.07.49:714][423]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.07.49:736][424]LogBlueprintUserMessages: 290.0
+[2014.06.14-16.07.49:760][425]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.07.50:201][445]LogBlueprintUserMessages: 250.0
+[2014.06.14-16.07.50:243][447]LogBlueprintUserMessages: 240.0
+[2014.06.14-16.07.50:589][463]LogBlueprintUserMessages: 230.0
+[2014.06.14-16.07.50:610][464]LogBlueprintUserMessages: 220.0
+[2014.06.14-16.07.50:675][467]LogBlueprintUserMessages: 210.0
+[2014.06.14-16.07.51:663][512]LogBlueprintUserMessages: 3rd person
+[2014.06.14-16.07.52:276][541]LogBlueprintUserMessages: 1st person
+[2014.06.14-16.07.53:125][584]LogBlueprintUserMessages: 10.0
+[2014.06.14-16.07.53:288][592]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.07.53:311][593]LogBlueprintUserMessages: 60.0
+[2014.06.14-16.07.53:333][594]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.53:389][597]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.07.56:283][740]LogBlueprintUserMessages: 30.0
+[2014.06.14-16.07.56:306][741]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.56:351][743]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.56:373][744]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.56:417][746]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.56:464][748]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.56:747][762]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.56:808][765]LogBlueprintUserMessages: 60.0
+[2014.06.14-16.07.56:913][770]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.07.56:992][774]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.07.57:613][802]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.57:636][803]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.07.57:678][805]LogBlueprintUserMessages: 30.0
+[2014.06.14-16.07.57:718][807]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.57:741][808]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.58:036][822]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.58:109][826]LogBlueprintUserMessages: 60.0
+[2014.06.14-16.07.58:271][834]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.07.58:293][835]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.07.58:315][836]LogBlueprintUserMessages: 90.0
+[2014.06.14-16.07.58:376][839]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.07.58:397][840]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.07.58:417][841]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.59:309][885]LogBlueprintUserMessages: 20.0
+[2014.06.14-16.07.59:329][886]LogBlueprintUserMessages: 10.0
+[2014.06.14-16.07.59:373][888]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.07.59:707][904]LogBlueprintUserMessages: 60.0
+[2014.06.14-16.07.59:766][907]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.07.59:806][909]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.07.59:826][910]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.08.00:108][924]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.08.00:150][926]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.08.00:210][929]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.08.00:541][945]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.08.00:582][947]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.08.01:880][ 12]LogBlueprintUserMessages: 90.0
+[2014.06.14-16.08.01:901][ 13]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.08.01:941][ 15]LogBlueprintUserMessages: 40.0
+[2014.06.14-16.08.01:963][ 16]LogBlueprintUserMessages: 50.0
+[2014.06.14-16.08.02:405][ 38]LogBlueprintUserMessages: 60.0
+[2014.06.14-16.08.02:426][ 39]LogBlueprintUserMessages: 70.0
+[2014.06.14-16.08.02:466][ 41]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.08.02:546][ 45]LogBlueprintUserMessages: 90.0
+[2014.06.14-16.08.02:908][ 63]LogBlueprintUserMessages: 100.0
+[2014.06.14-16.08.02:944][ 65]LogBlueprintUserMessages: 110.0
+[2014.06.14-16.08.02:966][ 66]LogBlueprintUserMessages: 80.0
+[2014.06.14-16.08.02:984][ 67]LogBlueprintUserMessages: 110.0
+[2014.06.14-16.08.03:042][ 70]LogBlueprintUserMessages: 120.0
+[2014.06.14-16.08.03:345][ 84]LogBlueprintUserMessages: 130.0
+[2014.06.14-16.08.03:750][102]LogBlueprintUserMessages: 140.0
+[2014.06.14-16.08.03:768][103]LogBlueprintUserMessages: 150.0
+[2014.06.14-16.08.04:751][148]LogBlueprintUserMessages: 160.0
+[2014.06.14-16.08.04:774][149]LogBlueprintUserMessages: 170.0
+[2014.06.14-16.08.04:795][150]LogBlueprintUserMessages: 180.0
+[2014.06.14-16.08.04:817][151]LogBlueprintUserMessages: 190.0
+[2014.06.14-16.08.04:838][152]LogBlueprintUserMessages: 200.0
+[2014.06.14-16.08.06:026][207]LogBlueprintUserMessages: 210.0
+[2014.06.14-16.08.06:069][209]LogBlueprintUserMessages: 220.0
+[2014.06.14-16.08.06:401][224]LogBlueprintUserMessages: 230.0
+[2014.06.14-16.08.06:468][227]LogBlueprintUserMessages: 240.0
+[2014.06.14-16.08.06:512][229]LogBlueprintUserMessages: 250.0
+[2014.06.14-16.08.07:034][253]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.08.07:080][255]LogBlueprintUserMessages: 230.0
+[2014.06.14-16.08.07:102][256]LogBlueprintUserMessages: 260.0
+[2014.06.14-16.08.07:125][257]LogBlueprintUserMessages: 270.0
+[2014.06.14-16.08.07:147][258]LogBlueprintUserMessages: 280.0
+[2014.06.14-16.08.07:429][271]LogBlueprintUserMessages: 290.0
+[2014.06.14-16.08.07:452][272]LogBlueprintUserMessages: 300.0
+[2014.06.14-16.08.07:475][273]LogBlueprintUserMessages: 310.0
+[2014.06.14-16.08.07:497][274]LogBlueprintUserMessages: 320.0
+[2014.06.14-16.08.08:098][301]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.08.08:174][304]LogBlueprintUserMessages: 330.0
+[2014.06.14-16.08.15:044][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C027A0
+[2014.06.14-16.09.05:785][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:785][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:791][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:791][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:792][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.05:793][515]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.09.14:175][959]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.06.14-16.09.14:185][959]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.06.14-16.09.14:185][959]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.06.14-16.09.14:186][959]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.06.14-16.09.38:552][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2014.06.14-16.09.39:845][332]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.14-16.09.41:971][394]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.14-16.10.01:162][165]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.14-16.10.02:131][197]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.14-16.10.26:826][281]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.06.14-16.10.27:754][334]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Damage_Types'
+[2014.06.14-16.10.29:372][413]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Game_Modes'
+[2014.06.14-16.10.30:163][459]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Pickups'
+[2014.06.14-16.10.30:736][486]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Hud'
+[2014.06.14-16.11.56:934][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.11.56:935][830]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.13.54:301][144]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.03:306][578]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.06:112][702]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.09:114][851]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.14:805][113]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-16.14.14:887][113]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.06.14-16.14.14:887][113]LogPlayLevel: [PIE] Compiling Base_Character_BP before PIE...
+[2014.06.14-16.14.15:948][113]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.14-16.14.17:017][113]LogPlayLevel: PIE:  Blueprint regeneration took 2211 ms (2 blueprints)
+[2014.06.14-16.14.17:017][113]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:14:17)
+[2014.06.14-16.14.17:020][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002840s)
+[2014.06.14-16.14.17:021][113]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2014.06.14-16.14.17:021][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004195s)
+[2014.06.14-16.14.17:022][113]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.14.17:057][113]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.14.17
+[2014.06.14-16.14.17:057][113]LogWorld: Bringing up level for play took: 0.001568
+[2014.06.14-16.14.17:058][113]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:1]
+[2014.06.14-16.14.17:058][113]LogGameMode: RestartPlayer 264
+[2014.06.14-16.14.17:060][113]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_9
+[2014.06.14-16.14.17:060][113]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_9
+[2014.06.14-16.14.17:066][113]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.937
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.17:123][113]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.18:533][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000194CCF40
+[2014.06.14-16.14.20:555][253]BlueprintLog: New page: Compile Base_Character_BP
+[2014.06.14-16.14.21:598][253]BlueprintEditorCompileResults: Info [0697.92] Compile of Base_Character_BP successful! [in 52 ms]
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.21:626][253]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.22:258][279]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-16.14.22:264][279]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.14-16.14.23:290][279]LogPlayLevel: PIE:  Blueprint regeneration took 1032 ms (1 blueprints)
+[2014.06.14-16.14.23:290][279]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 18:14:23)
+[2014.06.14-16.14.23:293][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002602s)
+[2014.06.14-16.14.23:294][279]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2014.06.14-16.14.23:294][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004048s)
+[2014.06.14-16.14.23:295][279]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-16.14.23:333][279]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-17.14.23
+[2014.06.14-16.14.23:333][279]LogWorld: Bringing up level for play took: 0.001298
+[2014.06.14-16.14.23:334][279]LogPlayerController: Spawned spectator SpectatorPawn_9 [server:1]
+[2014.06.14-16.14.23:334][279]LogGameMode: RestartPlayer 265
+[2014.06.14-16.14.23:335][279]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_10
+[2014.06.14-16.14.23:335][279]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_10
+[2014.06.14-16.14.23:344][279]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.214
+[2014.06.14-16.14.24:020][305]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.24:954][348]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.25:458][371]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.26:238][407]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.26:563][422]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.27:401][461]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.27:730][477]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.28:617][518]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.28:994][535]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.29:477][557]LogBlueprintUserMessages: HELLO WORLD
+[2014.06.14-16.14.32:685][701]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000273109A0
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:107][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:109][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:109][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:109][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:109][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.35:109][811]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.36:059][854]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.44:366][218]BlueprintLog: New page: Compile Base_Character_BP
+[2014.06.14-16.14.45:406][218]BlueprintEditorCompileResults: Info [0721.73] Compile of Base_Character_BP successful! [in 52 ms]
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.14.45:433][218]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-16.15.01:838][875]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.036
+[2014.06.14-16.15.01:852][875]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Base_Character_BP] ([1] browsable assets)...
+[2014.06.14-16.15.01:891][875]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Base_Character_BP.Base_Character_BP]
+[2014.06.14-16.15.01:891][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Character_BP]
+[2014.06.14-16.15.02:428][875]LogSavePackage: Save=385.842010ms
+[2014.06.14-16.15.02:428][875]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP_Auto12E6EB67F44D529260EA824BA828791D0.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Character_BP_Auto1.uasset'
+[2014.06.14-16.15.02:445][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Base_Player_Controller] ([1] browsable assets)...
+[2014.06.14-16.15.02:461][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Player_Controller]
+[2014.06.14-16.15.02:648][875]LogSavePackage: Save=41.869701ms
+[2014.06.14-16.15.02:648][875]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Player_Controller_Auto1A7DBB98545F65159F8CCD2B867044F29.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Player_Controller_Auto1.uasset'
+[2014.06.14-16.15.02:683][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Hud/Base_HUD] ([1] browsable assets)...
+[2014.06.14-16.15.02:693][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Hud/Base_HUD]
+[2014.06.14-16.15.03:025][875]LogSavePackage: Save=175.626083ms
+[2014.06.14-16.15.03:025][875]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD_Auto14C44EE5D4EED0376667DBFAD8F9261A4.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Hud/Base_HUD_Auto1.uasset'
+[2014.06.14-16.15.03:033][875]LogFileHelpers: Auto-saving content packages took 1.195
+[2014.06.14-16.15.04:775][977]ImportText (LocalizedDisplayNames): Missing closing parenthesis: (Language="en",Text="Blueprint Side Scroller"
+[2014.06.14-16.15.04:775][977]ImportText (LocalizedDisplayNames): Missing closing parenthesis: (Language="ko",Text="è°¸ ¡¤ld"
+[2014.06.14-16.15.04:783][977]LogUProjectInfo: Found 0 directories to search
+[2014.06.14-16.15.04:783][977]LogUProjectInfo: FillProjectInfo took 0.0001 seconds
+[2014.06.14-16.15.04:785][977]LogJson:Warning: Field EngineAssociation was not found.
+[2014.06.14-16.15.04:785][977]LogJson:Error: Json Value of type 'Null' used as a 'String'.
+[2014.06.14-16.15.15:929][530]Cmd: CLOSE_SLATE_MAINFRAME
+[2014.06.14-16.15.15:931][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.06.14-16.15.18:086][531]Cmd: QUIT_EDITOR
+[2014.06.14-16.15.18:170][531]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.06.14-16.15.18:172][531]LogExit: Preparing to exit.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:389][531]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.14-16.15.18:414][531]LogExit: Editor shut down
+[2014.06.14-16.15.18:416][531]LogExit: Transaction tracking system shut down
+[2014.06.14-16.15.18:417][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009D00400
+[2014.06.14-16.15.18:418][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BEB84A0
+[2014.06.14-16.15.18:419][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000213FA2A0
+[2014.06.14-16.15.18:419][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C8C4360
+[2014.06.14-16.15.18:420][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C762B60
+[2014.06.14-16.15.18:420][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000097E0360
+[2014.06.14-16.15.18:421][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B4699E0
+[2014.06.14-16.15.18:421][531]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000212BBB00
+[2014.06.14-16.15.18:468][531]LogExit: Object subsystem successfully closed.
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module CrashTracker (163)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module HTTP (162)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module NewsFeed (161)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module SceneOutliner (160)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module EditorWidgets (159)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module CollectionManager (158)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module StatsViewer (157)
+[2014.06.14-16.15.18:504][531]LogModuleManager: Shutting down and abandoning module FoliageEdit (156)
+[2014.06.14-16.15.18:505][531]LogModuleManager: Shutting down and abandoning module LandscapeEditor (155)
+[2014.06.14-16.15.18:512][531]LogModuleManager: Shutting down and abandoning module MeshPaint (154)
+[2014.06.14-16.15.18:512][531]LogModuleManager: Shutting down and abandoning module ActorPickerMode (153)
+[2014.06.14-16.15.18:512][531]LogModuleManager: Shutting down and abandoning module GeometryMode (152)
+[2014.06.14-16.15.18:512][531]LogModuleManager: Shutting down and abandoning module TextureAlignMode (151)
+[2014.06.14-16.15.18:512][531]LogModuleManager: Shutting down and abandoning module BspMode (150)
+[2014.06.14-16.15.18:512][531]LogModuleManager: Shutting down and abandoning module PlacementMode (149)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module AutomationWorker (148)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module ViewportSnapping (147)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (146)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module UndoHistory (145)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (144)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module UserFeedback (143)
+[2014.06.14-16.15.18:513][531]LogModuleManager: Shutting down and abandoning module XmlParser (142)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module Blutility (141)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (138)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (137)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (136)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module InputBindingEditor (135)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (134)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module SettingsEditor (133)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module SessionLauncher (132)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module SessionFrontend (131)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module ProfilerClient (130)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (129)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module DeviceManager (128)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module AutomationController (127)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module AutomationWindow (126)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module Layers (125)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (124)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module DetailCustomizations (123)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module PackagesDialog (122)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module PropertyEditor (121)
+[2014.06.14-16.15.18:514][531]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (120)
+[2014.06.14-16.15.18:515][531]LogModuleManager: Shutting down and abandoning module AssetRegistry (119)
+[2014.06.14-16.15.18:588][531]LogModuleManager: Shutting down and abandoning module Persona (118)
+[2014.06.14-16.15.18:588][531]LogModuleManager: Shutting down and abandoning module GraphEditor (117)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module ContentBrowser (116)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module ClassViewer (115)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module Toolbox (114)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module ModuleUI (113)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module Sequencer (112)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module AssetTools (111)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module MovieSceneTools (110)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module OutputLog (109)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module GammaUI (108)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module Documentation (107)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.06.14-16.15.18:589][531]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.06.14-16.15.18:837][531]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.06.14-16.15.18:837][531]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.06.14-16.15.18:837][531]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.06.14-16.15.18:837][531]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.06.14-16.15.18:837][531]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.06.14-16.15.18:837][531]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.06.14-16.15.18:838][531]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.06.14-16.15.18:840][531]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.06.14-16.15.18:936][531]LogDerivedDataCache: Shutdown
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.06.14-16.15.18:936][531]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.06.14-16.15.18:943][531]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.06.14-16.15.18:944][531]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.06.14-16.15.18:944][531]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.06.14-16.15.18:944][531]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.06.14-16.15.18:944][531]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.06.14-16.15.19:044][531]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.06.14-16.15.19:044][531]LogExit: Exiting.
+[2014.06.14-16.15.19:050][531]Log file closed, 06/14/14 17:15:19

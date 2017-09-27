@@ -1,0 +1,924 @@
+Log file open, 06/16/14 05:31:50
+LogInit:Display: Running engine for game: Base_Project
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.06.16-04.31.50:106][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.06.16-04.31.50:132][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.16-04.31.50:140][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.16-04.31.50:148][  0]LogInit: Object subsystem initialized
+[2014.06.16-04.31.50:151][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.16-04.31.50:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.16-04.31.50:156][  0]LogInit: Computer: SHAUN-PC
+[2014.06.16-04.31.50:156][  0]LogInit: User: Shaun
+[2014.06.16-04.31.50:157][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.06.16-04.31.50:157][  0]LogInit: High frequency timer resolution =3.027421 MHz
+[2014.06.16-04.31.50:157][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx) Virtual=8192.0GB
+[2014.06.16-04.31.50:157][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.16-04.31.50:157][  0]LogMemory: Process Physical Memory: 53.84 MB used, 53.84 MB peak
+[2014.06.16-04.31.50:157][  0]LogMemory: Process Virtual Memory: 30.11 MB used, 30.43 MB peak
+[2014.06.16-04.31.50:157][  0]LogMemory: Physical Memory: 1768.48 MB used, 3839.18 MB total
+[2014.06.16-04.31.50:157][  0]LogMemory: Virtual Memory: 236.60 MB used, 8388608.00 MB total
+[2014.06.16-04.31.50:192][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2014.06.16-04.31.50:192][  0]LogD3D11RHI: Adapter has 1974MB of dedicated video memory, 0MB of dedicated system memory, and 1663MB of shared system memory, 1 output[s]
+[2014.06.16-04.31.50:192][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.16-04.31.50:200][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.06.16-04.31.50:209][  0]LogD3D11RHI: Async texture creation enabled
+[2014.06.16-04.31.50:331][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.16-04.31.51:488][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.16-04.31.51:580][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.16-04.31.51:617][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.16-04.31.51:721][  0]LogDerivedDataCache: Loaded boot cache 0.10s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.16-04.31.51:721][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.06.16-04.31.51:721][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.16-04.31.51:721][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.16-04.31.51:734][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.06.16-04.31.51:745][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.06.16-04.31.51:957][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.16-04.31.51:957][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.16-04.31.52:392][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.16-04.31.52:756][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.06.16-04.31.52:756][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.06.16-04.31.52:761][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.06.16-04.31.52:761][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.06.16-04.31.53:078][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.16-04.31.53:152][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.31.53:152][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.31.53:157][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.31.53:249][  0]BlueprintLog: New page: Editor Load
+[2014.06.16-04.31.53:285][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.06.16-04.31.53:285][  0]LogUObjectAllocator: 3804656 out of 0 bytes used by permanent object pool.
+[2014.06.16-04.31.53:798][  0]LogEngine: Initializing Engine...
+[2014.06.16-04.31.53:947][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.06.16-04.31.53:955][  0]LogInit: FAudioDevice initialized.
+[2014.06.16-04.31.54:014][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.16-04.31.54:035][  0]LogInit: Texture streaming: Enabled
+[2014.06.16-04.31.54:060][  0]LogInit: Transaction tracking system initialized
+[2014.06.16-04.31.54:158][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2014.06.16-04.31.54:307][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.16-04.31.54:312][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.16-04.31.54:358][  0]LogConsoleResponse:Display: 
+[2014.06.16-04.31.54:600][  0]SourceControl: Info Source control is disabled
+[2014.06.16-04.31.54:600][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.16-04.31.54:601][  0]LightingResults: New page: Lighting Build
+[2014.06.16-04.31.54:607][  0]MapCheck: New page: Map Check
+[2014.06.16-04.31.54:607][  0]LightingResults: New page: Lighting Build
+[2014.06.16-04.31.54:624][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000116280E0
+[2014.06.16-04.31.54:809][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.16-04.31.54:809][  0]Cmd: MAP CHECKDEP
+[2014.06.16-04.31.54:809][  0]MapCheck: New page: Untitled_1 - 16 Jun 2014 06:31:54
+[2014.06.16-04.31.54:846][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [36.721ms] ==========
+[2014.06.16-04.31.54:846][  0]LogFileHelpers: Loading map 'Template_Default' took 0.246
+[2014.06.16-04.31.54:927][  0]LogCollectionManager: Loaded 0 collections in 0.001014 seconds
+[2014.06.16-04.31.55:088][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.16-04.31.55:089][  0]Cmd: MODE PLACEMENT
+[2014.06.16-04.31.55:124][  0]LogLoad: Full Startup: 5.81 seconds (BP compile: 0.07 seconds)
+[2014.06.16-04.31.55:138][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.31.55:277][  0]LogRenderer:Warning: Reallocating scene render targets to support 840x720.
+[2014.06.16-04.31.55:429][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3563F5E43F5E6E70</RequestId><HostId>eou7MZZdqeANbLIAK1qC5HbxN9z4EwZg4KJEVXDUv9SRaa+SNswC69/nR3ach4O1</HostId></Error>
+[2014.06.16-04.31.55:517][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EBDB9BE660715BAC</RequestId><HostId>4Ng2ETnQ7krOMUboTn1Gvm45PpZXKTQ1ytFpSy6NOegZNWp0YrjLQ6N1txSaQ8qC</HostId></Error>
+[2014.06.16-04.31.55:539][  2]LogAssetRegistry: Asset discovery search completed in 1.3908 seconds
+[2014.06.16-04.31.55:562][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>303DB572CF129106</RequestId><HostId>sUC33UV/Vn22e95jwDbB/L/ymG7qH8Es1p3nlp/D2HeTzRUI2zjNBRipSb9p/PVCa+st9cwURWM=</HostId></Error>
+[2014.06.16-04.31.55:649][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3BC4ADCA57559B0C</RequestId><HostId>C0WiwLzhxNjxPQzXoqUOCZxYHeJTg5UcS1Ul2BMCJ3ZltHtVwSfdmaMTHAQ7M1Z/mKTtpeYUYC0=</HostId></Error>
+[2014.06.16-04.31.55:760][ 11]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.16-04.31.55:915][ 21]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E4B15E4C0BE7E2EA</RequestId><HostId>PlVzBsGOKz2875KKXw4FmTybXBZWSOzGaJ44QTCNmc6jPKVygT/quigzXuOj0IjG</HostId></Error>
+[2014.06.16-04.31.58:948][340]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.32.01:143][562]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.32.03:493][816]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2014.06.16-04.32.04:723][953]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.32.07:305][223]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.32.13:187][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:187][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:188][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.32.13:188][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Run_Left'
+[2014.06.16-04.32.13:189][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Run_Left' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:189][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Run_Left
+[2014.06.16-04.32.13:189][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Run_Right'
+[2014.06.16-04.32.13:189][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Run_Right' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:189][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Run_Right
+[2014.06.16-04.32.13:190][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd'
+[2014.06.16-04.32.13:190][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:190][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd
+[2014.06.16-04.32.13:190][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd'
+[2014.06.16-04.32.13:190][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:191][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd
+[2014.06.16-04.32.13:191][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Left'
+[2014.06.16-04.32.13:191][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Left' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:191][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Walk_Left
+[2014.06.16-04.32.13:191][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Right'
+[2014.06.16-04.32.13:191][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Right' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:192][839]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Walk_Right
+[2014.06.16-04.32.13:192][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:192][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:192][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Run_Left'
+[2014.06.16-04.32.13:193][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Run_Left' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:193][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Run_Right'
+[2014.06.16-04.32.13:193][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Run_Right' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:193][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd'
+[2014.06.16-04.32.13:193][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:194][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd'
+[2014.06.16-04.32.13:194][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:194][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Left'
+[2014.06.16-04.32.13:194][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Left' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:194][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Right'
+[2014.06.16-04.32.13:194][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Right' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset.
+[2014.06.16-04.32.13:196][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:197][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:197][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.32.13:197][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:197][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.32.13:197][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:198][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.32.13:198][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:198][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.32.13:198][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.32.13:198][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.32.13:198][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Run_Left'
+[2014.06.16-04.32.13:199][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Run_Left.Run_Left Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:199][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Run_Left' while loading NULL.
+[2014.06.16-04.32.13:199][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Run_Right'
+[2014.06.16-04.32.13:199][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Run_Right.Run_Right Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:199][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Run_Right' while loading NULL.
+[2014.06.16-04.32.13:200][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd'
+[2014.06.16-04.32.13:200][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd.Walk_Bwd Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:200][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd' while loading NULL.
+[2014.06.16-04.32.13:200][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Left'
+[2014.06.16-04.32.13:200][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Walk_Left.Walk_Left Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:200][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Left' while loading NULL.
+[2014.06.16-04.32.13:201][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd'
+[2014.06.16-04.32.13:201][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd.Walk_Fwd Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:201][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Fwd' while loading NULL.
+[2014.06.16-04.32.13:201][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Right'
+[2014.06.16-04.32.13:201][839]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Walk_Right.Walk_Right Referenced by Owen_Locomotion_Blendspace Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.06.16-04.32.13:201][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Right' while loading NULL.
+[2014.06.16-04.32.13:202][839]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd'
+[2014.06.16-04.32.13:202][839]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Walk_Bwd' while loading NULL.
+[2014.06.16-04.32.13:427][839]LogSavePackage: Save=11.940857ms
+[2014.06.16-04.32.13:427][839]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Locomotion_Blendspace1A73AB9C49F690468D1B2EB3D572CD85.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset'
+[2014.06.16-04.32.13:605][839]LogSavePackage: Save=10.433964ms
+[2014.06.16-04.32.13:605][839]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Locomotion_Blendspace30B80D6B421C4E61EDCE718C18E958E5.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset'
+[2014.06.16-04.32.23:121][739]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.32.26:964][124]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen'
+[2014.06.16-04.32.30:867][541]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.32.33:150][777]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.32.35:666][997]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.32.35:733][997]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.32.35:793][997]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.32.35:863][997]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.32.35:919][997]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.32.36:228][997]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.32.36:624][998]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.32.56:049][602]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.32.56:404][604]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.33.01:264][653]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.33.03:751][866]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-04.33.06:061][ 13]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.33.07:874][ 31]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations/AimOffsets'
+[2014.06.16-04.33.08:840][108]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.33.15:031][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:031][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.uasset.
+[2014.06.16-04.33.15:032][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:032][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:032][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBD.uasset.
+[2014.06.16-04.33.15:035][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:035][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_LBD Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:035][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:044][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:044][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBU.uasset.
+[2014.06.16-04.33.15:045][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBU : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:045][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:045][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LBU.uasset.
+[2014.06.16-04.33.15:049][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:049][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_LBU Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:049][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:057][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:057][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LC.uasset.
+[2014.06.16-04.33.15:057][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LC : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:057][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:058][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LC.uasset.
+[2014.06.16-04.33.15:060][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:061][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_LC Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:061][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:068][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:069][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LD.uasset.
+[2014.06.16-04.33.15:069][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LD : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:069][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:069][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LD.uasset.
+[2014.06.16-04.33.15:075][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:075][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_LD Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:075][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:081][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:082][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LU.uasset.
+[2014.06.16-04.33.15:082][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LU : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:082][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:082][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_LU.uasset.
+[2014.06.16-04.33.15:085][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:085][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_LU Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:087][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:094][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:094][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBC.uasset.
+[2014.06.16-04.33.15:094][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBC : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:095][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:095][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBC.uasset.
+[2014.06.16-04.33.15:098][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:098][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_RBC Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:099][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:107][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:107][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBD.uasset.
+[2014.06.16-04.33.15:107][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBD : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:108][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:108][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBD.uasset.
+[2014.06.16-04.33.15:110][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:111][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_RBD Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:111][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:118][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:118][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBU.uasset.
+[2014.06.16-04.33.15:118][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBU : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:119][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:119][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RBU.uasset.
+[2014.06.16-04.33.15:122][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:122][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_RBU Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:122][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:129][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:129][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RC.uasset.
+[2014.06.16-04.33.15:129][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RC : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:130][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:130][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RC.uasset.
+[2014.06.16-04.33.15:135][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:135][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_RC Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:135][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:143][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:144][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RD.uasset.
+[2014.06.16-04.33.15:144][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RD : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:144][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:144][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RD.uasset.
+[2014.06.16-04.33.15:148][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:148][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_RD Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:148][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:154][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:154][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RU.uasset.
+[2014.06.16-04.33.15:155][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RU : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:155][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:155][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Animations/AimOffsets/AO_RU.uasset.
+[2014.06.16-04.33.15:158][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:158][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AO_RU Property /Script/Engine.AnimSequence:RefPoseSeq
+[2014.06.16-04.33.15:158][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.15:188][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:188][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset.
+[2014.06.16-04.33.15:189][440]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.33.15:190][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:190][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset.
+[2014.06.16-04.33.15:193][440]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.33.15:193][440]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by Owen_AimOffset Property /Script/Engine.BlendSpaceBase:PreviewBasePose
+[2014.06.16-04.33.15:194][440]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.33.16:635][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_CC" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_CC.uasset" SILENT=true
+[2014.06.16-04.33.16:838][440]LogSavePackage: Save=104.529892ms
+[2014.06.16-04.33.16:839][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CCEB80225A4024CD8CB4A226A2EEF0A603.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_CC.uasset'
+[2014.06.16-04.33.16:945][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_CD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_CD.uasset" SILENT=true
+[2014.06.16-04.33.17:080][440]LogSavePackage: Save=112.363953ms
+[2014.06.16-04.33.17:081][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CD883212DE43C161DD1E32F3A73281122F.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_CD.uasset'
+[2014.06.16-04.33.17:129][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_CU" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_CU.uasset" SILENT=true
+[2014.06.16-04.33.17:198][440]LogSavePackage: Save=37.963005ms
+[2014.06.16-04.33.17:199][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_CU869B32574B2D5D893E9649A54E30D7A3.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_CU.uasset'
+[2014.06.16-04.33.17:240][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_LBC" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LBC.uasset" SILENT=true
+[2014.06.16-04.33.17:309][440]LogSavePackage: Save=37.142174ms
+[2014.06.16-04.33.17:310][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBC6A47968746D351DE200579ACA8578063.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LBC.uasset'
+[2014.06.16-04.33.17:352][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_LBD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LBD.uasset" SILENT=true
+[2014.06.16-04.33.17:423][440]LogSavePackage: Save=39.776760ms
+[2014.06.16-04.33.17:424][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBDFB4AF24541755E4FE7F2A89DB5012B97.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LBD.uasset'
+[2014.06.16-04.33.17:438][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_LBU" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LBU.uasset" SILENT=true
+[2014.06.16-04.33.17:481][440]LogSavePackage: Save=39.680969ms
+[2014.06.16-04.33.17:482][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LBU6314658F4BA73ED7F6D724AD6CFBECB2.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LBU.uasset'
+[2014.06.16-04.33.17:527][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_LC" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LC.uasset" SILENT=true
+[2014.06.16-04.33.17:595][440]LogSavePackage: Save=37.460266ms
+[2014.06.16-04.33.17:596][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LC3AD76B6143E49AD0ADAE09AEA463FE89.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LC.uasset'
+[2014.06.16-04.33.17:639][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_LD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LD.uasset" SILENT=true
+[2014.06.16-04.33.17:707][440]LogSavePackage: Save=39.569324ms
+[2014.06.16-04.33.17:708][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LD761CEE03469DCD3A395604B2779F51FC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LD.uasset'
+[2014.06.16-04.33.17:750][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_LU" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LU.uasset" SILENT=true
+[2014.06.16-04.33.17:819][440]LogSavePackage: Save=38.598862ms
+[2014.06.16-04.33.17:821][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_LU487EDE73444D97DC4059FC9295F60C1D.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_LU.uasset'
+[2014.06.16-04.33.17:866][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_RBC" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RBC.uasset" SILENT=true
+[2014.06.16-04.33.17:935][440]LogSavePackage: Save=39.313660ms
+[2014.06.16-04.33.17:936][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RBC6A84A2AB4C908C5A57BB13AB93FF9E7A.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RBC.uasset'
+[2014.06.16-04.33.17:976][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_RBD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RBD.uasset" SILENT=true
+[2014.06.16-04.33.18:047][440]LogSavePackage: Save=38.616695ms
+[2014.06.16-04.33.18:048][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RBD8BEAD7C74CFC2BEF7139B1AE4A035EBF.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RBD.uasset'
+[2014.06.16-04.33.18:089][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_RBU" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RBU.uasset" SILENT=true
+[2014.06.16-04.33.18:160][440]LogSavePackage: Save=38.629910ms
+[2014.06.16-04.33.18:161][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RBU4A93F9A74BB0190A60C6C49B1C010329.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RBU.uasset'
+[2014.06.16-04.33.18:202][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_RC" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RC.uasset" SILENT=true
+[2014.06.16-04.33.18:272][440]LogSavePackage: Save=38.289684ms
+[2014.06.16-04.33.18:273][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RCD630140B44AAAFBA90C2878D889E8338.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RC.uasset'
+[2014.06.16-04.33.18:316][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_RD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RD.uasset" SILENT=true
+[2014.06.16-04.33.18:361][440]LogSavePackage: Save=13.812086ms
+[2014.06.16-04.33.18:361][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RD3902434E4A7B8A167EB1999F1D2A98C9.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RD.uasset'
+[2014.06.16-04.33.18:377][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/AimOffsets/AO_RU" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RU.uasset" SILENT=true
+[2014.06.16-04.33.18:417][440]LogSavePackage: Save=35.600597ms
+[2014.06.16-04.33.18:418][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/AO_RU5FD0CCFB42E9D556CE0494AE66055C45.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/AimOffsets/AO_RU.uasset'
+[2014.06.16-04.33.19:829][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0B0D60
+[2014.06.16-04.33.19:833][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021BC4860
+[2014.06.16-04.33.20:479][440]LogSavePackage: Save=11.795849ms
+[2014.06.16-04.33.20:479][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset03F2E9DD45D1E302C972F39B3F2E4FCC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.20:687][440]LogSavePackage: Save=15.625511ms
+[2014.06.16-04.33.20:687][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetD95B7DC94342816801A487A47AEBA860.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.20:898][440]LogSavePackage: Save=19.415865ms
+[2014.06.16-04.33.20:898][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset961A9D1341C3135F5260D28F6AA347C6.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.21:146][440]LogSavePackage: Save=20.649260ms
+[2014.06.16-04.33.21:146][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetDD9444664DB940183B240BB3ED7B4C90.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.21:409][440]LogSavePackage: Save=34.046471ms
+[2014.06.16-04.33.21:410][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset1DD45CAF4657071C72D054BD3A49DED6.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.21:653][440]LogSavePackage: Save=13.072513ms
+[2014.06.16-04.33.21:653][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset5FADC8174F67C7C8152FF79F7F7A7D92.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.21:887][440]LogSavePackage: Save=13.428592ms
+[2014.06.16-04.33.21:887][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetB6F24A2E4A8DBBDD493530AA38B7BF19.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.22:111][440]LogSavePackage: Save=13.222145ms
+[2014.06.16-04.33.22:112][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetA1B9FB514BD45035392B149A11A71074.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.22:320][440]LogSavePackage: Save=14.471394ms
+[2014.06.16-04.33.22:320][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset50D2CDE5413FAA5113A5DB8F5FF7E086.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.22:524][440]LogSavePackage: Save=13.206620ms
+[2014.06.16-04.33.22:524][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetAA4C63D744B3CC87513A118D373957EE.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.22:812][440]LogSavePackage: Save=13.521410ms
+[2014.06.16-04.33.22:812][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset1646D42D4281AA61CD5493BBFDB32DFF.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.23:057][440]LogSavePackage: Save=21.608822ms
+[2014.06.16-04.33.23:057][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetD6F7D77A483A30A48603919CF413EC6C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.23:289][440]LogSavePackage: Save=14.293684ms
+[2014.06.16-04.33.23:289][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset1B203BF749A6E25D72C5AC956F4A005B.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.23:492][440]LogSavePackage: Save=12.865406ms
+[2014.06.16-04.33.23:492][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetC1D1CCEC40A68F206BF4C39CF06B3ACF.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.23:719][440]LogSavePackage: Save=14.104414ms
+[2014.06.16-04.33.23:719][440]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffsetEAE270F540417BB88081B4AF7EEEEE2C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.33.23:728][440]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.16-04.33.23:729][440]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/AimOffsets'
+[2014.06.16-04.33.27:128][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.33.38:383][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.06.16-04.33.38:515][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.06.16-04.33.40:643][ 56]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.33.40:907][ 57]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.33.45:022][132]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.33.45:412][134]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.33.47:923][193]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/AimOffsets'
+[2014.06.16-04.33.49:516][266]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.33.54:073][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA26AC0
+[2014.06.16-04.33.54:177][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D40A480
+[2014.06.16-04.34.06:606][863]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.34.12:102][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Run_Fwd" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Fwd.uasset" SILENT=true
+[2014.06.16-04.34.12:285][227]LogSavePackage: Save=103.816750ms
+[2014.06.16-04.34.12:286][227]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_Fwd517AA4BE4341B00F59D6AF91334980DF.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Fwd.uasset'
+[2014.06.16-04.34.12:392][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/Run_Bwd" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Bwd.uasset" SILENT=true
+[2014.06.16-04.34.12:593][227]LogSavePackage: Save=103.968033ms
+[2014.06.16-04.34.12:594][227]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Run_BwdDEE48F524CFDB2B01FB6CEAB810F593C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Animations/Run_Bwd.uasset'
+[2014.06.16-04.34.13:250][227]LogSavePackage: Save=15.574973ms
+[2014.06.16-04.34.13:250][227]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Locomotion_BlendspaceBC6207B744F500C1A6FC94AC52F9125E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset'
+[2014.06.16-04.34.13:476][227]LogSavePackage: Save=22.405539ms
+[2014.06.16-04.34.13:476][227]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Locomotion_BlendspaceB02CBDE54DFB2BF8D7F9DDA03DCE6D5E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/Blendspaces/Owen_Locomotion_Blendspace.uasset'
+[2014.06.16-04.34.16:025][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.34.16:413][415]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Animations'
+[2014.06.16-04.34.18:851][609]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.16-04.34.19:770][657]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/AnimBlueprint'
+[2014.06.16-04.34.34:726][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.34.34:726][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.uasset.
+[2014.06.16-04.34.34:727][660]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle
+[2014.06.16-04.34.34:727][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones'
+[2014.06.16-04.34.34:727][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.uasset.
+[2014.06.16-04.34.34:727][660]LoadErrors:Error: Error /Game/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP : Can't find file for asset. /Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones
+[2014.06.16-04.34.34:734][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.34.34:735][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.uasset.
+[2014.06.16-04.34.34:735][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones'
+[2014.06.16-04.34.34:735][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.uasset.
+[2014.06.16-04.34.34:742][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones'
+[2014.06.16-04.34.34:742][660]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones.Idle_ModifyBones Referenced by Owen_ExampleBP_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.06.16-04.34.34:742][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones' while loading NULL.
+[2014.06.16-04.34.34:743][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.34.34:743][660]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by Owen_ExampleBP_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.06.16-04.34.34:743][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.34.34:752][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle'
+[2014.06.16-04.34.34:752][660]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle.Idle Referenced by AnimGraphNode_SequencePlayer_135 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.06.16-04.34.34:753][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle' while loading NULL.
+[2014.06.16-04.34.34:753][660]LogLinker:Warning: Can't find file '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones'
+[2014.06.16-04.34.34:754][660]LoadErrors: Info Failed to load /Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones.Idle_ModifyBones Referenced by AnimGraphNode_SequencePlayer_81 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.06.16-04.34.34:754][660]LogLinker:Warning: Can't find file for asset '/Game/ExampleContent/AnimationDemo/Animations/Idle_ModifyBones' while loading NULL.
+[2014.06.16-04.34.34:925][660]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.34.34:926][660]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.34.34:932][660]LogBlueprint:Warning: [compiler] Warning [0165.61] Compile of Owen_ExampleBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 15 ms]
+[2014.06.16-04.34.35:111][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2014.06.16-04.34.35:112][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2014.06.16-04.34.35:112][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2014.06.16-04.34.35:112][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2014.06.16-04.34.35:114][660]LogBlueprint:Warning: [compiler] Warning [0165.79] Compile of 3rdPersonPawn successful, but with 4 Warning(s) [in 3 ms]
+[2014.06.16-04.34.35:119][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn 
+[2014.06.16-04.34.35:120][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight 
+[2014.06.16-04.34.35:120][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward 
+[2014.06.16-04.34.35:120][660]LogBlueprint:Warning: [compiler] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp 
+[2014.06.16-04.34.35:122][660]LogBlueprint:Warning: [compiler] Warning [0165.80] Compile of 3rdPersonPawn successful, but with 4 Warning(s) [in 3 ms]
+[2014.06.16-04.34.35:301][660]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.34.35:302][660]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.34.35:307][660]LogBlueprint:Warning: [compiler] Warning [0165.98] Compile of Owen_ExampleBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 12 ms]
+[2014.06.16-04.34.35:648][660]LogMetaData: Removing '/Game/AnimBlueprint/Owen_ExampleBP.Owen_ExampleBP_C' ref from Metadata '/Game/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.PackageMetaData'
+[2014.06.16-04.34.35:648][660]LogMetaData: Removing '/Game/AnimBlueprint/Owen_ExampleBP.SKEL_Owen_ExampleBP_C' ref from Metadata '/Game/ExampleContent/AnimationDemo/AnimBlueprint/Owen_ExampleBP.PackageMetaData'
+[2014.06.16-04.34.35:838][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimBlueprint/Owen_ExampleBP" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset" SILENT=true
+[2014.06.16-04.34.36:108][660]LogSavePackage: Save=266.102081ms
+[2014.06.16-04.34.36:108][660]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_ExampleBPB863094145D042A14ABF2DBA85ECE30C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset'
+[2014.06.16-04.34.38:028][660]LogSavePackage: Save=819.173157ms
+[2014.06.16-04.34.38:028][660]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/3rdPersonPawn7573B1D24C1DFA391F28EDAAC127D0E1.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn.uasset'
+[2014.06.16-04.34.38:038][660]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.16-04.34.38:038][660]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.34.44:720][760]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2014.06.16-04.34.47:102][812]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.34.49:199][870]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen'
+[2014.06.16-04.34.49:742][879]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/MaterialLayers'
+[2014.06.16-04.34.50:012][880]LogMaterial: Missing cached shader map for material Material_0, compiling.
+[2014.06.16-04.34.50:217][881]LogMaterial: Missing cached shader map for material Material_1, compiling.
+[2014.06.16-04.34.50:373][882]LogMaterial: Missing cached shader map for material Material_2, compiling.
+[2014.06.16-04.34.50:610][883]LogMaterial: Missing cached shader map for material Material_3, compiling.
+[2014.06.16-04.34.51:117][895]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/Materials'
+[2014.06.16-04.34.54:423][952]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/Textures'
+[2014.06.16-04.34.55:793][986]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/Materials'
+[2014.06.16-04.34.59:443][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.06.16-04.34.59:653][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.06.16-04.34.59:653][ 63]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.06.16-04.36.00:266][937]LogMaterial: 0.005050 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.16-04.36.01:940][956]LogMaterial: 0.004350 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.16-04.36.07:827][ 28]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.36.07:877][ 28]LogMaterial: Incomplete cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.36.08:009][ 28]LogMaterial: 0.132504 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.16-04.36.12:260][ 71]LogMaterial: Missing cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.36.12:318][ 71]LogMaterial: Incomplete cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.36.12:466][ 71]LogMaterial: 0.148731 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.16-04.36.15:706][109]LogMaterial: Incomplete cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.36.15:864][109]LogMaterial: Incomplete cached shader map for material M_Owen_Master, compiling.
+[2014.06.16-04.36.15:917][109]LogMaterial: 0.053508 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.16-04.36.16:757][115]LogMaterial: 0.002115 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2014.06.16-04.39.06:455][671]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/Textures'
+[2014.06.16-04.39.08:528][706]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/Materials'
+[2014.06.16-04.39.16:047][789]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/Textures'
+[2014.06.16-04.39.17:223][800]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2014.06.16-04.39.18:104][820]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.39.21:642][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/Blendspaces'
+[2014.06.16-04.39.27:879][979]LogSavePackage: Save=116.781578ms
+[2014.06.16-04.39.27:880][979]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Locomotion_Blendspace0BB50BDC4B9A9A26C10B52B7CE6AD208.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blendspaces/Owen_Locomotion_Blendspace.uasset'
+[2014.06.16-04.39.27:891][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blendspaces/Owen_AimOffset" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blendspaces/Owen_AimOffset.uasset" SILENT=true
+[2014.06.16-04.39.27:906][979]LogSavePackage: Save=12.717425ms
+[2014.06.16-04.39.27:906][979]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_AimOffset58F803184EF26E36A2835BBC6F9C2047.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blendspaces/Owen_AimOffset.uasset'
+[2014.06.16-04.39.28:021][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.06.16-04.39.28:560][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimBlueprint/Owen_ExampleBP" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset" SILENT=true
+[2014.06.16-04.39.28:919][979]LogSavePackage: Save=64.794754ms
+[2014.06.16-04.39.28:919][979]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_ExampleBPA9DF61004120DA23766EE7A02624EF27.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset'
+[2014.06.16-04.39.29:042][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimBlueprint/Owen_ExampleBP" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset" SILENT=true
+[2014.06.16-04.39.29:545][979]LogSavePackage: Save=144.516068ms
+[2014.06.16-04.39.29:545][979]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_ExampleBP3EC228FA4811D5EEDF5F3A960A622110.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset'
+[2014.06.16-04.39.29:559][979]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.06.16-04.39.29:559][979]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blendspaces'
+[2014.06.16-04.39.31:339][  2]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.39.36:132][ 74]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.39.38:408][170]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.39.43:344][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.06.16-04.39.46:580][291]LogSavePackage: Save=427.036072ms
+[2014.06.16-04.39.46:580][291]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Coat_Inst34DF03084EE53D99110D7EAC19E10274.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Coat_Inst.uasset'
+[2014.06.16-04.41.25:794][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:794][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:799][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:800][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:800][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:800][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:800][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:800][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.25:800][723]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.16-04.41.35:762][846]LogRenderer:Warning: Reallocating scene render targets to support 872x720.
+[2014.06.16-04.41.54:998][246]LogSavePackage: Save=221.096115ms
+[2014.06.16-04.41.55:000][246]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/MI_Owen_Coat_Inst924FE4B74265C99EE25157A50B7AFA7E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Surface_Owen/Materials/MI_Owen_Coat_Inst.uasset'
+[2014.06.16-04.41.56:826][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.06.16-04.41.56:855][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001871AE80
+[2014.06.16-04.41.56:856][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FBF0F40
+[2014.06.16-04.41.57:072][298]LogSavePackage: Save=177.037155ms
+[2014.06.16-04.41.57:073][298]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Untitled_1_Auto1FC493E5642956BD2B668E0A6A3EF881E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2014.06.16-04.41.57:083][298]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.257
+[2014.06.16-04.41.57:083][298]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.257
+[2014.06.16-04.41.57:096][298]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn] ([1] browsable assets)...
+[2014.06.16-04.41.57:106][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn]
+[2014.06.16-04.41.57:490][298]LogSavePackage: Save=113.731789ms
+[2014.06.16-04.41.57:491][298]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/3rdPersonPawn_Auto1FBCD457F4E29B903E1C5F0B4774E08EC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn_Auto1.uasset'
+[2014.06.16-04.41.57:501][298]LogFileHelpers: Auto-saving content packages took 0.418
+[2014.06.16-04.42.11:516][987]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.06.16-04.44.30:319][166]LogEditorViewport: Clicking on Actor (context menu): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.44.30:377][166]LogEditorViewport: Clicking on Actor (context menu): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.44.31:346][225]LogEditorViewport: Clicking on Actor (LMB): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.45.22:143][684]LogEditorViewport: Clicking on Actor (LMB): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.45.24:526][802]LogEditorViewport: Clicking on Actor (LMB): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.45.36:939][280]LogEditorViewport: Clicking on Actor (LMB): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.45.36:980][280]LogEditorViewport: Clicking on Actor (context menu): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.45.58:884][102]LogEditorViewport: Clicking on Actor (LMB): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.46.00:806][165]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.46.02:869][227]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.46.06:212][355]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.06.16-04.46.07:326][397]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.06.16-04.46.14:234][600]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.46.14:234][600]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset.
+[2014.06.16-04.46.14:235][600]LoadErrors:Error: Error /Game/Blueprints/Characters/Base_Character_BP : Can't find file for asset. /Game/Characters/Base_Character/Base_TP_Character_ABP
+[2014.06.16-04.46.14:375][600]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.46.14:375][600]LoadErrors: Info Failed to load /Game/Blueprints/Hud/Base_HUD.Base_Hud_C Referenced by Default__Base_Character_BP_C Property /Script/Engine.SkeletalMeshComponent:AnimBlueprintGeneratedClass
+[2014.06.16-04.46.14:376][600]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Pickups/BaseItemPlaceHolder.uasset.
+[2014.06.16-04.46.14:376][600]LoadErrors:Error: Error /Game/Blueprints/Pickups/BaseItemPlaceHolder : Can't find file for asset. /Game/Characters/Base_Character/Base_TP_Character_ABP
+[2014.06.16-04.46.14:401][600]LoadErrors:Error: Error Failed import: SkeletalMesh /Game/Characters/Base_Character/Base_TP_Character.Base_TP_Character  in /Game/Blueprints/Characters/Base_Character_BP
+[2014.06.16-04.46.14:877][600]LogBlueprint:Error: [compiler] Error  CharacterInventory  of type array[object'BaseItemPlaceHolder_C'] doesn't match the property CharacterInventory of type array[]
+[2014.06.16-04.46.14:882][600]LogBlueprint:Error: [compiler] Error  CharacterInventory  of type array[object'BaseItemPlaceHolder_C'] doesn't match the property CharacterInventory of type array[]
+[2014.06.16-04.46.14:883][600]LogBlueprint:Error: [compiler] Error  CharacterInventory  of type array[object'BaseItemPlaceHolder_C'] doesn't match the property CharacterInventory of type array[]
+[2014.06.16-04.46.14:884][600]LogBlueprint:Warning: [compiler] Warning [0865.54] Compile of Base_Hud failed. 3 Fatal Issue(s) 0 Warning(s) [in 35 ms]
+[2014.06.16-04.46.15:495][600]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.46.15:495][600]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset.
+[2014.06.16-04.46.15:589][600]LogObj: REINST_BaseItemPlaceHolder_C_60 /Engine/Transient.REINST_BaseItemPlaceHolder_C_0 did not route PostLoad, because it didn't have a linker
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.17:078][600]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.16-04.46.27:472][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.06.16-04.46.27:472][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.06.16-04.46.31:795][875]BlueprintLog: New page: Compile Base_Character_BP
+[2014.06.16-04.46.32:242][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.06.16-04.46.33:232][875]BlueprintEditorCompileResults: Info [0882.75] Compile of Base_Character_BP successful! [in 268 ms]
+[2014.06.16-04.46.45:284][122]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.06.16-04.46.47:572][149]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.06.16-04.46.49:018][173]BlueprintLog: New page: Compile Base_Character_BP
+[2014.06.16-04.46.49:452][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.06.16-04.46.50:279][173]BlueprintEditorCompileResults: Info [0899.92] Compile of Base_Character_BP successful! [in 209 ms]
+[2014.06.16-04.46.53:653][217]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.06.16-04.46.56:091][232]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.16-04.47.01:196][358]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.47.01:196][358]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset.
+[2014.06.16-04.47.01:218][358]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.47.01:218][358]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset.
+[2014.06.16-04.47.04:003][423]LogEditorViewport: Clicking on Actor (LMB): 3rdPersonPawn_C (3rdPersonPawn)
+[2014.06.16-04.47.05:273][447]Cmd: DELETE
+[2014.06.16-04.47.05:280][447]Cmd: ACTOR DELETE
+[2014.06.16-04.47.05:290][447]LogEditorActor: Deleted Actor: 3rdPersonPawn_C
+[2014.06.16-04.47.05:383][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.06.16-04.47.05:383][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.06.16-04.47.05:591][447]LogEditorActor: Deleted 1 Actors (0.301 secs)
+[2014.06.16-04.47.06:859][509]LogEditorViewport: Clicking on Actor (LMB): Base_Character_BP_C (Base_Character_BP)
+[2014.06.16-04.47.08:418][548]Cmd: DELETE
+[2014.06.16-04.47.08:418][548]Cmd: ACTOR DELETE
+[2014.06.16-04.47.08:419][548]LogEditorActor: Deleted Actor: Base_Character_BP_C
+[2014.06.16-04.47.08:664][548]LogEditorActor: Deleted 1 Actors (0.246 secs)
+[2014.06.16-04.47.15:098][823]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blendspaces'
+[2014.06.16-04.47.15:886][871]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.47.19:612][958]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.47.59:438][720]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.49.10:241][377]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.49.10:467][377]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.49.10:467][377]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.49.10:472][377]LogBlueprint:Warning: [compiler] Warning [1041.13] Compile of Owen_ExampleBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 12 ms]
+[2014.06.16-04.49.10:907][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.06.16-04.49.11:637][377]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2014.06.16-04.49.11:637][377]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2014.06.16-04.49.11:637][377]BlueprintEditorCompileResults:Warning: Warning [1041.13] Compile of Owen_ExampleBP failed. 2 Fatal Issue(s) 0 Warning(s) [in 12 ms]
+[2014.06.16-04.50.41:217][767]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/AimOffsets'
+[2014.06.16-04.50.42:322][826]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.50.43:828][918]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen/MaterialLayers'
+[2014.06.16-04.50.44:950][969]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character/Surface_Owen'
+[2014.06.16-04.50.46:304][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.50.46:952][ 68]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo/BluePrints'
+[2014.06.16-04.50.48:684][147]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent/AnimationDemo'
+[2014.06.16-04.50.50:126][207]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.50.50:950][242]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/AimOffsets'
+[2014.06.16-04.50.52:057][301]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.50.53:885][384]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blendspaces'
+[2014.06.16-04.50.56:833][555]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.50.57:513][589]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blendspaces'
+[2014.06.16-04.51.01:605][758]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.51.01:954][760]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.51.52:524][379]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.51.56:947][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.06.16-04.51.56:997][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000186F4680
+[2014.06.16-04.51.56:997][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C91B600
+[2014.06.16-04.51.57:035][483]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000212A0400
+[2014.06.16-04.51.57:240][483]LogSavePackage: Save=187.294724ms
+[2014.06.16-04.51.57:242][483]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Untitled_1_Auto2624B76944E96A0050A084FAAEB9F8DAB.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2014.06.16-04.51.57:253][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.306
+[2014.06.16-04.51.57:253][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.306
+[2014.06.16-04.51.57:363][483]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Base_Character_BP] ([1] browsable assets)...
+[2014.06.16-04.51.57:404][483]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Base_Character_BP.Base_Character_BP]
+[2014.06.16-04.51.57:404][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Character_BP]
+[2014.06.16-04.51.59:069][483]LogSavePackage: Save=1092.850342ms
+[2014.06.16-04.51.59:071][483]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP_Auto2AFD634DD462034C764639C9040C30FDC.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Character_BP_Auto2.uasset'
+[2014.06.16-04.51.59:133][483]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn] ([1] browsable assets)...
+[2014.06.16-04.51.59:146][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn]
+[2014.06.16-04.51.59:957][483]LogSavePackage: Save=157.304855ms
+[2014.06.16-04.51.59:959][483]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/3rdPersonPawn_Auto22381B3EB4761D1991F5DB7914040D488.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn_Auto2.uasset'
+[2014.06.16-04.52.00:064][483]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Hud/Base_HUD] ([1] browsable assets)...
+[2014.06.16-04.52.00:079][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Hud/Base_HUD]
+[2014.06.16-04.52.01:016][483]LogSavePackage: Save=397.124481ms
+[2014.06.16-04.52.01:017][483]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD_Auto257E8B22F4E52EAF196BE0A9EA356CA58.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Hud/Base_HUD_Auto2.uasset'
+[2014.06.16-04.52.01:089][483]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pickups/BaseItemPlaceHolder] ([1] browsable assets)...
+[2014.06.16-04.52.01:095][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pickups/BaseItemPlaceHolder]
+[2014.06.16-04.52.01:756][483]LogSavePackage: Save=31.959215ms
+[2014.06.16-04.52.01:756][483]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/BaseItemPlaceHolder_Auto287F317D64F35C2485C3F3195DC9AB82C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Pickups/BaseItemPlaceHolder_Auto2.uasset'
+[2014.06.16-04.52.01:764][483]LogFileHelpers: Auto-saving content packages took 4.512
+[2014.06.16-04.52.02:314][514]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.52.03:301][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/AimOffsets'
+[2014.06.16-04.52.04:377][569]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.52.08:099][656]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.52.49:865][ 23]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.52.49:887][ 23]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.06.16-04.52.49:893][ 23]LogBlueprint:Warning: [compiler] Warning [1260.54] Compile of Owen_ExampleBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms]
+[2014.06.16-04.52.50:372][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.06.16-04.52.51:014][ 23]BlueprintEditorCompileResults:Error: Error  Play (None)  references an unknown sequence
+[2014.06.16-04.52.51:014][ 23]BlueprintEditorCompileResults:Warning: Warning [1260.54] Compile of Owen_ExampleBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms]
+[2014.06.16-04.53.12:212][277]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.53.13:049][277]BlueprintEditorCompileResults: Info [1282.99] Compile of Owen_ExampleBP successful! [in 113 ms]
+[2014.06.16-04.53.44:239][750]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.53.45:139][750]BlueprintEditorCompileResults: Info [1315.01] Compile of Owen_ExampleBP successful! [in 12 ms]
+[2014.06.16-04.54.00:018][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimBlueprint/Owen_ExampleBP" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset" SILENT=true
+[2014.06.16-04.54.00:685][934]LogSavePackage: Save=270.562317ms
+[2014.06.16-04.54.00:686][934]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_ExampleBPEC4BCEE94D73D0D3D3AB488A8972C7BD.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset'
+[2014.06.16-04.54.15:744][ 40]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.54.16:609][ 40]BlueprintEditorCompileResults: Info [1346.42] Compile of Owen_ExampleBP successful! [in 12 ms]
+[2014.06.16-04.54.52:318][682]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.54.52:732][682]BlueprintEditorCompileResults: Info [1382.99] Compile of Owen_ExampleBP successful! [in 12 ms]
+[2014.06.16-04.55.30:379][486]BlueprintLog: New page: Compile Owen_ExampleBP
+[2014.06.16-04.55.30:795][486]BlueprintEditorCompileResults: Info [1421.05] Compile of Owen_ExampleBP successful! [in 12 ms]
+[2014.06.16-04.55.32:101][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AnimBlueprint/Owen_ExampleBP" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset" SILENT=true
+[2014.06.16-04.55.32:311][549]LogSavePackage: Save=49.059910ms
+[2014.06.16-04.55.32:311][549]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_ExampleBP404A277943616E690B49748031B3796E.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/AnimBlueprint/Owen_ExampleBP.uasset'
+[2014.06.16-04.55.38:946][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.06.16-04.55.39:672][950]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations/AimOffsets'
+[2014.06.16-04.55.40:273][986]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/AnimBlueprint'
+[2014.06.16-04.55.40:619][  9]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blendspaces'
+[2014.06.16-04.55.42:528][133]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters'
+[2014.06.16-04.55.42:951][162]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Characters/Base_Character'
+[2014.06.16-04.55.47:160][409]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2014.06.16-04.55.47:204][410]LogRenderer:Warning: Reallocating scene render targets to support 896x720.
+[2014.06.16-04.55.55:967][970]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.16-04.55.55:967][970]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.16-04.55.56:104][970]LogPlayLevel: [PIE] Compiling BaseItemPlaceHolder before PIE...
+[2014.06.16-04.55.56:241][970]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.06.16-04.55.56:241][970]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.06.16-04.55.56:284][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BF0B740
+[2014.06.16-04.55.56:284][970]LogPlayLevel: [PIE] Compiling Base_Character_BP before PIE...
+[2014.06.16-04.55.56:399][970]LogPlayLevel: [PIE] Compiling Base_Child_Inventory_Main before PIE...
+[2014.06.16-04.55.56:492][970]LogPlayLevel: PIE:  Blueprint regeneration took 524 ms (4 blueprints)
+[2014.06.16-04.55.56:492][970]PIE: New page: PIE session: Untitled_1 (16 Jun 2014 06:55:56)
+[2014.06.16-04.55.56:495][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002630s)
+[2014.06.16-04.55.56:496][970]LogPlayLevel: PIE: World Init took: (0.001235s)
+[2014.06.16-04.55.56:496][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004094s)
+[2014.06.16-04.55.56:508][970]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.55.56:508][970]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset.
+[2014.06.16-04.55.56:530][970]LogLinker:Warning: Can't find file '/Game/Characters/Base_Character/Base_TP_Character_ABP'
+[2014.06.16-04.55.56:530][970]LogLinker:Warning: Can't find file for asset '/Game/Characters/Base_Character/Base_TP_Character_ABP' while loading ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset.
+[2014.06.16-04.55.56:577][970]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.16-04.55.56:635][970]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.16-05.55.56
+[2014.06.16-04.55.56:636][970]LogWorld: Bringing up level for play took: 0.002139
+[2014.06.16-04.55.56:636][970]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.06.16-04.55.56:637][970]LogGameMode: RestartPlayer 256
+[2014.06.16-04.55.56:639][970]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_0
+[2014.06.16-04.55.56:639][970]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_0
+[2014.06.16-04.55.56:645][970]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.799
+[2014.06.16-04.55.56:654][970]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.55.56:688][970]LogRenderer:Warning: Reallocating scene render targets to support 1296x760.
+[2014.06.16-04.55.56:778][971]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.55.58:303][ 54]LogBlueprintUserMessages: 100.0
+[2014.06.16-04.55.58:379][ 59]LogBlueprintUserMessages: 80.0
+[2014.06.16-04.55.58:408][ 61]LogBlueprintUserMessages: 90.0
+[2014.06.16-04.55.58:436][ 63]LogBlueprintUserMessages: 100.0
+[2014.06.16-04.55.58:468][ 65]LogBlueprintUserMessages: 110.0
+[2014.06.16-04.55.58:524][ 68]LogBlueprintUserMessages: 120.0
+[2014.06.16-04.56.03:167][317]LogBlueprintUserMessages: 130.0
+[2014.06.16-04.56.03:200][318]LogBlueprintUserMessages: 140.0
+[2014.06.16-04.56.03:239][320]LogBlueprintUserMessages: 150.0
+[2014.06.16-04.56.03:271][321]LogBlueprintUserMessages: 160.0
+[2014.06.16-04.56.03:319][322]LogBlueprintUserMessages: 170.0
+[2014.06.16-04.56.03:899][351]LogBlueprintUserMessages: 180.0
+[2014.06.16-04.56.03:934][353]LogBlueprintUserMessages: 190.0
+[2014.06.16-04.56.03:970][355]LogBlueprintUserMessages: 200.0
+[2014.06.16-04.56.04:020][358]LogBlueprintUserMessages: 210.0
+[2014.06.16-04.56.04:053][360]LogBlueprintUserMessages: 220.0
+[2014.06.16-04.56.04:124][364]LogBlueprintUserMessages: 230.0
+[2014.06.16-04.56.04:575][390]LogBlueprintUserMessages: 240.0
+[2014.06.16-04.56.18:337][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020F3B2E0
+[2014.06.16-04.56.18:338][ 32]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000266AC680
+[2014.06.16-04.56.21:151][255]Cmd: DELETE
+[2014.06.16-04.56.21:151][255]Cmd: ACTOR DELETE
+[2014.06.16-04.56.21:152][255]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2014.06.16-04.56.21:178][255]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2014.06.16-04.56.23:847][518]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2014.06.16-04.56.24:098][521]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.56.49:915][608]LogSavePackage: Save=14.156274ms
+[2014.06.16-04.56.49:915][608]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Owen_Skeleton56A31B184F1744ED3A4BA6A5FB646E7C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Characters/Base_Character/Owen_Skeleton.uasset'
+[2014.06.16-04.57.41:773][196]LogPhysics:Warning: PHYSX: ..\..\module\clothing\embedded\SimulationPhysX3.cpp (501) 4 : physx::apex::clothing::SimulationPhysX3::initCollision: This asset has 38 collision volumes, but only 32 are supported. 6 will be ignored!
+[2014.06.16-04.57.57:438][137]ImportText (LocalizedDisplayNames): Missing closing parenthesis: (Language="en",Text="Blueprint Side Scroller"
+[2014.06.16-04.57.57:438][137]ImportText (LocalizedDisplayNames): Missing closing parenthesis: (Language="ko",Text="è°¸ ¡¤ld"
+[2014.06.16-04.57.57:453][137]LogUProjectInfo: Found 0 directories to search
+[2014.06.16-04.57.57:453][137]LogUProjectInfo: FillProjectInfo took 0.0001 seconds
+[2014.06.16-04.57.57:456][137]LogJson:Warning: Field EngineAssociation was not found.
+[2014.06.16-04.57.57:456][137]LogJson:Error: Json Value of type 'Null' used as a 'String'.
+[2014.06.16-04.57.59:361][316]Cmd: CLOSE_SLATE_MAINFRAME
+[2014.06.16-04.57.59:388][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BA18B80
+[2014.06.16-04.57.59:393][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FBF14E0
+[2014.06.16-04.58.04:091][316]LogSavePackage: Save=137.664032ms
+[2014.06.16-04.58.04:091][316]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP4F369B844406F99DF14BB596CC867D48.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset'
+[2014.06.16-04.58.04:108][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hud/Base_HUD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Hud/Base_HUD.uasset" SILENT=true
+[2014.06.16-04.58.04:427][316]LogSavePackage: Save=152.885239ms
+[2014.06.16-04.58.04:427][316]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD403B32D8433F81F9183D01B706AA5CB5.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Hud/Base_HUD.uasset'
+[2014.06.16-04.58.04:627][316]LogSavePackage: Save=22.483164ms
+[2014.06.16-04.58.04:627][316]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Child_Inventory_MainD5E315EB45F2DEDF7DA613BA30D8C923.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Pickups/Base_Child_Inventory_Main.uasset'
+[2014.06.16-04.58.04:823][316]LogSavePackage: Save=21.552668ms
+[2014.06.16-04.58.04:824][316]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/BaseItemPlaceHolder28706E6242BA3AC2A67A82BA6451A786.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Pickups/BaseItemPlaceHolder.uasset'
+[2014.06.16-04.58.05:033][316]LogSavePackage: Save=33.654388ms
+[2014.06.16-04.58.05:033][316]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/3rdPersonPawnD515679A40CEB8BFD4308E89FF7C3AF0.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/ExampleContent/AnimationDemo/BluePrints/3rdPersonPawn.uasset'
+[2014.06.16-04.58.05:573][317]Cmd: QUIT_EDITOR
+[2014.06.16-04.58.05:661][317]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.06.16-04.58.05:664][317]LogExit: Preparing to exit.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:059][317]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2014.06.16-04.58.06:086][317]LogExit: Editor shut down
+[2014.06.16-04.58.06:087][317]LogExit: Transaction tracking system shut down
+[2014.06.16-04.58.06:088][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA24860
+[2014.06.16-04.58.06:088][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA24360
+[2014.06.16-04.58.06:089][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009DCC400
+[2014.06.16-04.58.06:089][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A3B8CC0
+[2014.06.16-04.58.06:090][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009DCE980
+[2014.06.16-04.58.06:090][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009DCE660
+[2014.06.16-04.58.06:091][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FBF0CC0
+[2014.06.16-04.58.06:137][317]LogExit: Object subsystem successfully closed.
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module DesktopPlatform (165)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module MaterialEditor (164)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.06.16-04.58.06:177][317]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.06.16-04.58.06:189][317]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.06.16-04.58.06:189][317]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.06.16-04.58.06:189][317]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.06.16-04.58.06:189][317]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.06.16-04.58.06:189][317]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.06.16-04.58.06:189][317]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.06.16-04.58.06:190][317]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.06.16-04.58.06:191][317]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.06.16-04.58.06:192][317]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.06.16-04.58.06:262][317]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.06.16-04.58.06:263][317]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.06.16-04.58.06:335][317]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.06.16-04.58.06:335][317]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.06.16-04.58.06:335][317]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.06.16-04.58.06:335][317]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.06.16-04.58.06:335][317]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.06.16-04.58.06:335][317]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.06.16-04.58.06:337][317]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.06.16-04.58.06:339][317]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.06.16-04.58.06:421][317]LogDerivedDataCache: Shutdown
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.06.16-04.58.06:421][317]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.06.16-04.58.06:425][317]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.06.16-04.58.06:425][317]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.06.16-04.58.06:425][317]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.06.16-04.58.06:425][317]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.06.16-04.58.06:425][317]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.06.16-04.58.06:526][317]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.06.16-04.58.06:527][317]LogExit: Exiting.
+[2014.06.16-04.58.06:561][317]Log file closed, 06/16/14 05:58:06

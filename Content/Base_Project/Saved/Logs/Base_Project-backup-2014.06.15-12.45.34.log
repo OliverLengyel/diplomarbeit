@@ -1,0 +1,1368 @@
+Log file open, 06/14/14 19:17:43
+LogInit:Display: Running engine for game: Base_Project
+LogInit: Version: 4.2.0-2092659+++depot+UE4-Releases+4.2
+LogInit: Compiled (64-bit): Jun  3 2014 00:56:21
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.2
+LogInit: Command line: 
+LogInit: Base directory: C:/Unreal Engine 4/Unreal Engine/4.2/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.06.14-18.17.43:511][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.06.14-18.17.43:539][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.06.14-18.17.43:547][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.06.14-18.17.43:556][  0]LogInit: Object subsystem initialized
+[2014.06.14-18.17.43:560][  0]LogInit: Selected Device Profile: [Windows]
+[2014.06.14-18.17.43:560][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.06.14-18.17.43:573][  0]LogInit: Computer: SHAUN-PC
+[2014.06.14-18.17.43:573][  0]LogInit: User: Shaun
+[2014.06.14-18.17.43:574][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.06.14-18.17.43:574][  0]LogInit: High frequency timer resolution =3.027392 MHz
+[2014.06.14-18.17.43:574][  0]LogMemory: Memory total: Physical=3.7GB (4GB approx) Virtual=8192.0GB
+[2014.06.14-18.17.43:574][  0]LogMemory: Platform Memory Stats for Windows
+[2014.06.14-18.17.43:574][  0]LogMemory: Process Physical Memory: 53.80 MB used, 53.80 MB peak
+[2014.06.14-18.17.43:574][  0]LogMemory: Process Virtual Memory: 30.12 MB used, 30.43 MB peak
+[2014.06.14-18.17.43:574][  0]LogMemory: Physical Memory: 3093.56 MB used, 3839.18 MB total
+[2014.06.14-18.17.43:574][  0]LogMemory: Virtual Memory: 236.60 MB used, 8388608.00 MB total
+[2014.06.14-18.17.43:613][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2014.06.14-18.17.43:613][  0]LogD3D11RHI: Adapter has 1974MB of dedicated video memory, 0MB of dedicated system memory, and 1663MB of shared system memory, 1 output[s]
+[2014.06.14-18.17.43:613][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.06.14-18.17.43:623][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.06.14-18.17.43:633][  0]LogD3D11RHI: Async texture creation enabled
+[2014.06.14-18.17.43:754][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.06.14-18.17.45:038][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.14-18.17.45:142][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.06.14-18.17.45:187][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.06.14-18.17.46:153][  0]LogDerivedDataCache: Loaded boot cache 0.97s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.14-18.17.46:154][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.06.14-18.17.46:154][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.06.14-18.17.46:154][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.06.14-18.17.46:167][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.06.14-18.17.46:181][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.06.14-18.17.46:407][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.06.14-18.17.46:407][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.06.14-18.17.46:890][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.06.14-18.17.47:300][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.06.14-18.17.47:300][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.06.14-18.17.47:305][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.06.14-18.17.47:305][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.06.14-18.17.47:658][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.06.14-18.17.47:735][  0]SourceControl: Info Source control is disabled
+[2014.06.14-18.17.47:735][  0]SourceControl: Info Source control is disabled
+[2014.06.14-18.17.47:740][  0]SourceControl: Info Source control is disabled
+[2014.06.14-18.17.47:844][  0]BlueprintLog: New page: Editor Load
+[2014.06.14-18.17.47:883][  0]LogObj: 19136 objects as part of root set at end of initial load.
+[2014.06.14-18.17.47:883][  0]LogUObjectAllocator: 3804656 out of 0 bytes used by permanent object pool.
+[2014.06.14-18.17.48:437][  0]LogEngine: Initializing Engine...
+[2014.06.14-18.17.48:621][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.06.14-18.17.48:629][  0]LogInit: FAudioDevice initialized.
+[2014.06.14-18.17.48:687][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Shaun/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.06.14-18.17.48:708][  0]LogInit: Texture streaming: Enabled
+[2014.06.14-18.17.48:734][  0]LogInit: Transaction tracking system initialized
+[2014.06.14-18.17.48:833][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2014.06.14-18.17.48:984][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.14-18.17.48:989][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.06.14-18.17.49:030][  0]LogConsoleResponse:Display: 
+[2014.06.14-18.17.49:295][  0]SourceControl: Info Source control is disabled
+[2014.06.14-18.17.49:295][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.06.14-18.17.49:295][  0]LightingResults: New page: Lighting Build
+[2014.06.14-18.17.49:303][  0]MapCheck: New page: Map Check
+[2014.06.14-18.17.49:303][  0]LightingResults: New page: Lighting Build
+[2014.06.14-18.17.49:321][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000118FC0E0
+[2014.06.14-18.17.49:613][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.06.14-18.17.49:613][  0]Cmd: MAP CHECKDEP
+[2014.06.14-18.17.49:613][  0]MapCheck: New page: Untitled_1 - 14 Jun 2014 20:17:49
+[2014.06.14-18.17.49:648][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [34.609ms] ==========
+[2014.06.14-18.17.49:648][  0]LogFileHelpers: Loading map 'Template_Default' took 0.353
+[2014.06.14-18.17.49:741][  0]LogCollectionManager: Loaded 0 collections in 0.001083 seconds
+[2014.06.14-18.17.49:917][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.06.14-18.17.49:918][  0]Cmd: MODE PLACEMENT
+[2014.06.14-18.17.49:990][  0]LogLoad: Full Startup: 7.57 seconds (BP compile: 0.07 seconds)
+[2014.06.14-18.17.50:008][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Hud'
+[2014.06.14-18.17.50:136][  0]LogRenderer:Warning: Reallocating scene render targets to support 840x720.
+[2014.06.14-18.17.50:304][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D382A92CEABFCDF0</RequestId><HostId>nUI1TjftIXPZiPSVWKkc/1Fa8XVHrm8mkggJs9duGnF1v3yi+WItODxOoBWpNvD+</HostId></Error>
+[2014.06.14-18.17.50:485][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EE1E10541554D2E4</RequestId><HostId>4cNJ/q36xrtdzLTxZzHHj4zPgFt5YR9oAdGFxxA049AdV5l7cbY5WYQQcf888Xia</HostId></Error>
+[2014.06.14-18.17.50:508][  2]LogAssetRegistry: Asset discovery search completed in 1.6856 seconds
+[2014.06.14-18.17.50:528][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>3C2585504B4A4268</RequestId><HostId>UlsexHslNXiB0REWQH99rPRA/p4NBTO1BkoVAk8JxfB2fYGKOxDdaRdFH8EukFOF</HostId></Error>
+[2014.06.14-18.17.50:539][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>0C5099C29196EEBD</RequestId><HostId>m/zqS/kIrItoUANocxppAlvPpG9OUA3xvM8TSUG97AYg2OM1UT7VLpjeWBtYc+kY</HostId></Error>
+[2014.06.14-18.17.50:584][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>49F6444656145D7A</RequestId><HostId>mQU+UbLu3FtzK6VmSWuy4qFXU7xWhVIIltfCn4VOSkYdZIMIu7CwGqus7GIgzhJR</HostId></Error>
+[2014.06.14-18.17.50:646][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.14-18.17.53:411][247]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.06.14-18.17.54:897][380]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Pickups'
+[2014.06.14-18.17.55:392][418]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Hud'
+[2014.06.14-18.18.04:596][825]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.04:597][825]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_111644.EdGraphPin_12613"''
+[2014.06.14-18.18.04:597][825]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105837.EdGraphPin_12566"''
+[2014.06.14-18.18.10:309][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Characters'
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.11:986][154]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.18.18:176][567]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a HUD, therefore ' Target ' must have a connection
+[2014.06.14-18.18.18:178][567]LogBlueprint:Warning: [compiler] Warning [0035.75] Compile of Base_Player_Controller failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms]
+[2014.06.14-18.18.33:734][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:734][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:734][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:735][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:736][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:736][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:736][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:736][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:736][337]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.18.33:737][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105934 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_105934
+[2014.06.14-18.18.33:737][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_105934.EdGraphPin_7951) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105837.EdGraphPin_7942).  Import failed...
+[2014.06.14-18.18.33:737][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_105934.EdGraphPin_7951"''
+[2014.06.14-18.18.33:737][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106472 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_106472
+[2014.06.14-18.18.33:737][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_106472.EdGraphPin_7960) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105837.EdGraphPin_7942).  Import failed...
+[2014.06.14-18.18.33:737][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_106472.EdGraphPin_7960"''
+[2014.06.14-18.18.33:738][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106506 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_106506
+[2014.06.14-18.18.33:738][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_106506.EdGraphPin_7970) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105934.EdGraphPin_7952).  Import failed...
+[2014.06.14-18.18.33:738][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_106506.EdGraphPin_7970"''
+[2014.06.14-18.18.33:738][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106540 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_106540
+[2014.06.14-18.18.33:738][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_106540.EdGraphPin_7979) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105934.EdGraphPin_7953).  Import failed...
+[2014.06.14-18.18.33:738][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_106540.EdGraphPin_7979"''
+[2014.06.14-18.18.33:740][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116186 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116186
+[2014.06.14-18.18.33:740][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116186.EdGraphPin_8018) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106506.EdGraphPin_7971).  Import failed...
+[2014.06.14-18.18.33:741][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_116186.EdGraphPin_8018"''
+[2014.06.14-18.18.33:741][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116708 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116708
+[2014.06.14-18.18.33:741][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116708.EdGraphPin_8042) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106540.EdGraphPin_7980).  Import failed...
+[2014.06.14-18.18.33:742][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_116708.EdGraphPin_8042"''
+[2014.06.14-18.18.33:743][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_Event_2614 or K2Node_Event /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_Event_2614
+[2014.06.14-18.18.33:743][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_Event_2614.EdGraphPin_7666) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_111644.EdGraphPin_7987).  Import failed...
+[2014.06.14-18.18.33:743][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Event_2614.EdGraphPin_7666"''
+[2014.06.14-18.18.33:743][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_IfThenElse_651 or K2Node_IfThenElse /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_IfThenElse_651
+[2014.06.14-18.18.33:743][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_IfThenElse_651.EdGraphPin_8067) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_111644.EdGraphPin_7987).  Import failed...
+[2014.06.14-18.18.33:743][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_651.EdGraphPin_8067"''
+[2014.06.14-18.18.33:743][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116233
+[2014.06.14-18.18.33:743][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116233.EdGraphPin_8032) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_111644.EdGraphPin_7990).  Import failed...
+[2014.06.14-18.18.33:744][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_116233.EdGraphPin_8032"''
+[2014.06.14-18.18.33:745][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116233
+[2014.06.14-18.18.33:745][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116233.EdGraphPin_8030) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116186.EdGraphPin_8020).  Import failed...
+[2014.06.14-18.18.33:745][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_116233.EdGraphPin_8030"''
+[2014.06.14-18.18.33:746][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116708 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116708
+[2014.06.14-18.18.33:746][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_116708.EdGraphPin_8044) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233.EdGraphPin_8031).  Import failed...
+[2014.06.14-18.18.33:747][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_116708.EdGraphPin_8044"''
+[2014.06.14-18.18.33:762][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_129020 or K2Node_CallFunction /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_129020
+[2014.06.14-18.18.33:762][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_CallFunction_129020.EdGraphPin_8090) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_IfThenElse_651.EdGraphPin_8065).  Import failed...
+[2014.06.14-18.18.33:762][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_129020.EdGraphPin_8090"''
+[2014.06.14-18.18.33:763][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_VariableGet_1530 or K2Node_VariableGet /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_VariableGet_1530
+[2014.06.14-18.18.33:763][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_VariableGet_1530.EdGraphPin_8077) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_IfThenElse_651.EdGraphPin_8066).  Import failed...
+[2014.06.14-18.18.33:763][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1530.EdGraphPin_8077"''
+[2014.06.14-18.18.33:764][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_MacroInstance_1936 or K2Node_MacroInstance /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_MacroInstance_1936
+[2014.06.14-18.18.33:764][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_1936.EdGraphPin_8339"''
+[2014.06.14-18.18.33:767][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_VariableSet_1958 or K2Node_VariableSet /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_VariableSet_1958
+[2014.06.14-18.18.33:767][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_VariableSet_1958.EdGraphPin_8125) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_MacroInstance_1936.EdGraphPin_8340).  Import failed...
+[2014.06.14-18.18.33:767][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1958.EdGraphPin_8125"''
+[2014.06.14-18.18.33:767][337]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_VariableSet_1957 or K2Node_VariableSet /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_VariableSet_1957
+[2014.06.14-18.18.33:767][337]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Characters/Base_Player_Controller.Base_Player_Controller:EventGraph.K2Node_VariableSet_1957.EdGraphPin_8137) from referencer (EdGraphPin /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_MacroInstance_1936.EdGraphPin_8341).  Import failed...
+[2014.06.14-18.18.33:767][337]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_1957.EdGraphPin_8137"''
+[2014.06.14-18.18.33:778][337]LogBlueprint:Warning: [Base_Hud] CreatePinForVariable: 'Debug?' variable not found. Base class was probably changed.
+[2014.06.14-18.18.33:779][337]LogBlueprint:Warning: [Base_Hud] CreatePinForVariable: 'Debug?' variable not found. Base class was probably changed.
+[2014.06.14-18.18.33:779][337]LogBlueprint:Warning: [Base_Hud] CreatePinForVariable: 'Debug?' variable not found. Base class was probably changed.
+[2014.06.14-18.18.38:806][543]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.18.38:850][543]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Debug?' for  Get Debug? 
+[2014.06.14-18.18.38:851][543]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Debug?' for  Set Debug? 
+[2014.06.14-18.18.38:851][543]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Debug?' for  Set Debug? 
+[2014.06.14-18.18.38:862][543]LogBlueprint:Error: [compiler] Error The property associated with  Debug?  could not be found
+[2014.06.14-18.18.38:862][543]LogBlueprint:Error: [compiler] Error The property associated with  Debug?  could not be found
+[2014.06.14-18.18.38:867][543]LogBlueprint:Warning: [compiler] Warning [0056.44] Compile of Base_Hud failed. 2 Fatal Issue(s) 3 Warning(s) [in 28 ms]
+[2014.06.14-18.18.39:083][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.06.14-18.18.40:001][543]BlueprintEditorCompileResults:Warning: Warning Unable to find variable with name 'Debug?' for  Get Debug? 
+[2014.06.14-18.18.40:001][543]BlueprintEditorCompileResults:Warning: Warning Unable to find variable with name 'Debug?' for  Set Debug? 
+[2014.06.14-18.18.40:001][543]BlueprintEditorCompileResults:Warning: Warning Unable to find variable with name 'Debug?' for  Set Debug? 
+[2014.06.14-18.18.40:001][543]BlueprintEditorCompileResults:Error: Error The property associated with  Debug?  could not be found
+[2014.06.14-18.18.40:001][543]BlueprintEditorCompileResults:Error: Error The property associated with  Debug?  could not be found
+[2014.06.14-18.18.40:001][543]BlueprintEditorCompileResults:Warning: Warning [0056.44] Compile of Base_Hud failed. 2 Fatal Issue(s) 3 Warning(s) [in 28 ms]
+[2014.06.14-18.18.53:281][ 72]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.18.54:315][ 72]BlueprintEditorCompileResults: Info [0070.91] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.19.06:813][577]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-18.19.06:819][577]LogPlayLevel: [PIE] Compiling Base_Player_Controller before PIE...
+[2014.06.14-18.19.07:765][577]LogPlayLevel: PIE:  Blueprint regeneration took 952 ms (1 blueprints)
+[2014.06.14-18.19.07:766][577]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:19:07)
+[2014.06.14-18.19.07:769][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003204s)
+[2014.06.14-18.19.07:770][577]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2014.06.14-18.19.07:770][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004523s)
+[2014.06.14-18.19.07:801][577]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.19.07:850][577]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.19.07
+[2014.06.14-18.19.07:850][577]LogWorld: Bringing up level for play took: 0.001526
+[2014.06.14-18.19.07:851][577]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.06.14-18.19.07:851][577]LogGameMode: RestartPlayer 256
+[2014.06.14-18.19.07:852][577]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_0
+[2014.06.14-18.19.07:853][577]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_0
+[2014.06.14-18.19.07:865][577]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.616
+[2014.06.14-18.19.07:896][577]LogRenderer:Warning: Reallocating scene render targets to support 1296x760.
+[2014.06.14-18.19.13:238][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021A75260
+[2014.06.14-18.19.35:747][670]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.19.36:725][670]BlueprintEditorCompileResults: Info [0113.38] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.19.37:214][682]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.19.37:215][682]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:19:37)
+[2014.06.14-18.19.37:217][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002280s)
+[2014.06.14-18.19.37:218][682]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2014.06.14-18.19.37:218][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003413s)
+[2014.06.14-18.19.37:219][682]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.19.37:258][682]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.19.37
+[2014.06.14-18.19.37:258][682]LogWorld: Bringing up level for play took: 0.001297
+[2014.06.14-18.19.37:259][682]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.06.14-18.19.37:259][682]LogGameMode: RestartPlayer 257
+[2014.06.14-18.19.37:260][682]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_1
+[2014.06.14-18.19.37:260][682]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_1
+[2014.06.14-18.19.37:271][682]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.022
+[2014.06.14-18.19.37:281][682]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:359][682]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:380][683]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:412][684]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:444][685]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:472][686]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:496][687]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:519][688]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:543][689]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:570][690]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:592][691]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:619][692]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:641][693]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:667][694]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:690][695]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:715][696]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:740][697]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:763][698]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:784][699]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:806][700]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:828][701]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:854][702]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:879][703]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:902][704]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:924][705]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:947][706]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:972][707]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.37:996][708]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:022][709]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:046][710]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:070][711]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:096][712]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:118][713]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:141][714]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:166][715]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:191][716]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:217][717]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:239][718]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:264][719]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:288][720]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:314][721]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:336][722]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:362][723]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:384][724]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:410][725]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:432][726]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:458][727]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:481][728]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:505][729]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:529][730]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:555][731]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:578][732]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:601][733]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:625][734]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:651][735]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:675][736]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:700][737]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:722][738]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:748][739]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:772][740]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:797][741]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:822][742]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:847][743]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:870][744]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:894][745]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:921][746]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:947][747]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:971][748]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.38:994][749]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:021][750]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:043][751]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:070][752]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:095][753]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:119][754]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:145][755]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:170][756]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:193][757]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:218][758]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:243][759]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:267][760]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:291][761]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:314][762]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:338][763]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:367][764]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:389][765]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:412][766]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:435][767]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:457][768]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:479][769]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:502][770]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:527][771]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:553][772]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:577][773]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:602][774]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:628][775]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:652][776]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:677][777]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:700][778]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:724][779]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:747][780]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:773][781]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:797][782]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:823][783]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:847][784]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:870][785]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:894][786]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:917][787]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:943][788]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:966][789]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.39:989][790]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:014][791]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:038][792]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:061][793]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:085][794]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:114][795]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:138][796]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:162][797]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:184][798]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:210][799]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:235][800]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:259][801]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:281][802]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:305][803]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:328][804]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:354][805]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:376][806]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:401][807]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:427][808]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:451][809]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:475][810]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:499][811]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:524][812]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:547][813]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:574][814]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:596][815]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:619][816]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:642][817]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:666][818]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:690][819]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:715][820]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:738][821]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:762][822]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:787][823]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:811][824]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:835][825]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:862][826]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:885][827]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:913][828]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:936][829]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:959][830]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.40:985][831]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:011][832]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:033][833]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:056][834]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:080][835]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:106][836]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:131][837]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:156][838]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:178][839]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:204][840]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:227][841]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:251][842]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:275][843]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:299][844]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:323][845]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:349][846]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:373][847]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:397][848]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:421][849]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:446][850]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:470][851]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:495][852]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:520][853]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:543][854]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:566][855]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:591][856]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:616][857]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:640][858]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:665][859]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:688][860]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:713][861]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:736][862]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:764][863]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:787][864]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:811][865]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:835][866]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:861][867]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:887][868]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:915][869]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:939][870]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:963][871]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.41:987][872]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:012][873]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:036][874]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:061][875]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:085][876]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:110][877]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:134][878]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:156][879]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:182][880]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:205][881]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:230][882]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:253][883]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:278][884]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:303][885]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:328][886]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:353][887]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:379][888]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:403][889]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:425][890]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:449][891]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:471][892]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:497][893]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:521][894]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:545][895]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:569][896]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:592][897]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:617][898]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:642][899]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:667][900]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:692][901]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:714][902]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:739][903]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:762][904]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:786][905]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:813][906]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:838][907]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:863][908]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:887][909]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:913][910]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:935][911]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:961][912]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.42:984][913]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:006][914]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:030][915]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:054][916]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:077][917]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:105][918]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:128][919]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:155][920]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:178][921]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:200][922]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:227][923]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:249][924]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:271][925]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:294][926]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:316][927]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:342][928]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:367][929]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:389][930]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:415][931]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:438][932]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:466][933]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:493][934]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:517][935]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:542][936]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:565][937]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:588][938]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:613][939]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:637][940]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:660][941]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:682][942]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.19.43:830][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D3BAD40
+[2014.06.14-18.19.48:905][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:905][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:966][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:967][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:968][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:968][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:968][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.19.48:968][183]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.20.18:049][552]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.20.19:054][552]BlueprintEditorCompileResults: Info [0155.68] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.20.25:806][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:806][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:806][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:806][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:806][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:806][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:807][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:808][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:808][851]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.20.25:809][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_105934 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105934
+[2014.06.14-18.20.25:809][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_106472 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106472
+[2014.06.14-18.20.25:809][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_106506 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106506
+[2014.06.14-18.20.25:810][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_106540 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106540
+[2014.06.14-18.20.25:811][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116186 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116186
+[2014.06.14-18.20.25:812][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116708 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116708
+[2014.06.14-18.20.25:813][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_IfThenElse_651 or K2Node_IfThenElse /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_IfThenElse_651
+[2014.06.14-18.20.25:813][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116233 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233
+[2014.06.14-18.20.25:815][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116233 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233
+[2014.06.14-18.20.25:816][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116708 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116708
+[2014.06.14-18.20.25:817][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_129020 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_129020
+[2014.06.14-18.20.25:817][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_VariableGet_1530 or K2Node_VariableGet /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_VariableGet_1530
+[2014.06.14-18.20.25:818][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_MacroInstance_1936 or K2Node_MacroInstance /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_MacroInstance_1936
+[2014.06.14-18.20.25:818][851]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_1936.EdGraphPin_8587"''
+[2014.06.14-18.20.25:819][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EdGraph_293.K2Node_CallFunction_1344830 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_1344830
+[2014.06.14-18.20.25:821][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_VariableSet_1958 or K2Node_VariableSet /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_VariableSet_1958
+[2014.06.14-18.20.25:821][851]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_VariableSet_1957 or K2Node_VariableSet /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_VariableSet_1957
+[2014.06.14-18.20.38:928][398]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.20.39:964][398]BlueprintEditorCompileResults: Info [0176.56] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.20.40:305][404]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.20.40:305][404]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:20:40)
+[2014.06.14-18.20.40:307][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002329s)
+[2014.06.14-18.20.40:308][404]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2014.06.14-18.20.40:310][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004739s)
+[2014.06.14-18.20.40:310][404]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.20.40:354][404]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.20.40
+[2014.06.14-18.20.40:354][404]LogWorld: Bringing up level for play took: 0.001308
+[2014.06.14-18.20.40:355][404]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.06.14-18.20.40:355][404]LogGameMode: RestartPlayer 258
+[2014.06.14-18.20.40:356][404]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_2
+[2014.06.14-18.20.40:356][404]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_2
+[2014.06.14-18.20.40:369][404]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.882
+[2014.06.14-18.20.40:378][404]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:462][404]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:500][405]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:530][406]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:556][407]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:585][408]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:623][409]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:650][410]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:674][411]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:700][412]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:730][413]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:761][414]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:788][415]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:810][416]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:833][417]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:861][418]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:889][419]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:919][420]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:953][421]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.40:988][422]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:021][423]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:051][424]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:087][425]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:112][426]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:137][427]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:161][428]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:189][429]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:218][430]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:241][431]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:265][432]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:290][433]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:314][434]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:338][435]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:367][436]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:394][437]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:417][438]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:443][439]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:465][440]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:489][441]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:514][442]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:538][443]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:564][444]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:588][445]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:616][446]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:647][447]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:678][448]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:703][449]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:727][450]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:751][451]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:777][452]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:803][453]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:827][454]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:851][455]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:874][456]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:897][457]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:922][458]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:947][459]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:972][460]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.41:997][461]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:019][462]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:044][463]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:070][464]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:093][465]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:122][466]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:147][467]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:170][468]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:194][469]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:221][470]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:243][471]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:272][472]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.42:391][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C49FC40
+[2014.06.14-18.20.57:773][ 74]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.20.58:767][ 74]BlueprintEditorCompileResults: Info [0195.41] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.20.59:250][ 87]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.20.59:250][ 87]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:20:59)
+[2014.06.14-18.20.59:253][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002139s)
+[2014.06.14-18.20.59:254][ 87]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2014.06.14-18.20.59:254][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003249s)
+[2014.06.14-18.20.59:254][ 87]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.20.59:297][ 87]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.20.59
+[2014.06.14-18.20.59:297][ 87]LogWorld: Bringing up level for play took: 0.001396
+[2014.06.14-18.20.59:298][ 87]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.06.14-18.20.59:298][ 87]LogGameMode: RestartPlayer 259
+[2014.06.14-18.20.59:299][ 87]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_3
+[2014.06.14-18.20.59:299][ 87]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_3
+[2014.06.14-18.20.59:301][ 87]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.20.59:311][ 87]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.06
+[2014.06.14-18.21.04:410][296]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C746660
+[2014.06.14-18.21.09:032][495]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.21.09:032][495]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.21.09:032][495]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.21.09:032][495]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.21.23:700][116]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.21.35:047][579]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.21.36:032][579]BlueprintEditorCompileResults: Info [0232.68] Compile of Base_Hud successful! [in 31 ms]
+[2014.06.14-18.21.36:546][594]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.21.36:546][594]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:21:36)
+[2014.06.14-18.21.36:548][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002219s)
+[2014.06.14-18.21.36:551][594]LogPlayLevel: PIE: World Init took: (0.002411s)
+[2014.06.14-18.21.36:551][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004828s)
+[2014.06.14-18.21.36:551][594]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.21.36:589][594]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.21.36
+[2014.06.14-18.21.36:589][594]LogWorld: Bringing up level for play took: 0.001248
+[2014.06.14-18.21.36:589][594]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.06.14-18.21.36:590][594]LogGameMode: RestartPlayer 260
+[2014.06.14-18.21.36:591][594]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_4
+[2014.06.14-18.21.36:591][594]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_4
+[2014.06.14-18.21.36:592][594]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.21.36:603][594]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.648
+[2014.06.14-18.21.43:240][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019C31B20
+[2014.06.14-18.22.18:380][365]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.22.19:368][365]BlueprintEditorCompileResults: Info [0276.01] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.22.19:691][372]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.22.19:691][372]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:22:19)
+[2014.06.14-18.22.19:694][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002431s)
+[2014.06.14-18.22.19:695][372]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2014.06.14-18.22.19:695][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003778s)
+[2014.06.14-18.22.19:695][372]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.22.19:736][372]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.22.19
+[2014.06.14-18.22.19:736][372]LogWorld: Bringing up level for play took: 0.001257
+[2014.06.14-18.22.19:737][372]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
+[2014.06.14-18.22.19:737][372]LogGameMode: RestartPlayer 261
+[2014.06.14-18.22.19:738][372]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_5
+[2014.06.14-18.22.19:738][372]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_5
+[2014.06.14-18.22.19:740][372]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.22.19:750][372]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.498
+[2014.06.14-18.22.25:263][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C624D60
+[2014.06.14-18.22.38:233][172]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.22.39:216][172]BlueprintEditorCompileResults: Info [0295.86] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.22.39:758][188]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.22.39:758][188]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:22:39)
+[2014.06.14-18.22.39:761][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002466s)
+[2014.06.14-18.22.39:762][188]LogPlayLevel: PIE: World Init took: (0.001190s)
+[2014.06.14-18.22.39:762][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003864s)
+[2014.06.14-18.22.39:762][188]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.22.39:803][188]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.22.39
+[2014.06.14-18.22.39:803][188]LogWorld: Bringing up level for play took: 0.001328
+[2014.06.14-18.22.39:804][188]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
+[2014.06.14-18.22.39:804][188]LogGameMode: RestartPlayer 262
+[2014.06.14-18.22.39:805][188]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_6
+[2014.06.14-18.22.39:805][188]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_6
+[2014.06.14-18.22.39:807][188]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.22.39:807][188]LogBlueprintUserMessages: Debugging On
+[2014.06.14-18.22.39:817][188]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.564
+[2014.06.14-18.22.42:888][319]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C706A20
+[2014.06.14-18.22.51:539][704]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.22.52:529][704]BlueprintEditorCompileResults: Info [0309.17] Compile of Base_Hud successful! [in 32 ms]
+[2014.06.14-18.22.52:754][707]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.22.52:755][707]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:22:52)
+[2014.06.14-18.22.52:758][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003512s)
+[2014.06.14-18.22.52:759][707]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2014.06.14-18.22.52:759][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004745s)
+[2014.06.14-18.22.52:761][707]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.22.52:801][707]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.22.52
+[2014.06.14-18.22.52:801][707]LogWorld: Bringing up level for play took: 0.001819
+[2014.06.14-18.22.52:802][707]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
+[2014.06.14-18.22.52:802][707]LogGameMode: RestartPlayer 263
+[2014.06.14-18.22.52:804][707]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_7
+[2014.06.14-18.22.52:804][707]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_7
+[2014.06.14-18.22.52:805][707]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.22.52:805][707]LogBlueprintUserMessages: Debugging On
+[2014.06.14-18.22.52:805][707]PIE:Warning: Warning Base_Hud_C_0 Canvas Draw functions may only be called during the handling of the DrawHUD event
+[2014.06.14-18.22.52:816][707]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.437
+[2014.06.14-18.22.58:722][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001048BEC0
+[2014.06.14-18.23.07:688][342]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.23.08:686][342]BlueprintEditorCompileResults: Info [0325.32] Compile of Base_Hud successful! [in 31 ms]
+[2014.06.14-18.23.09:164][355]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.23.09:164][355]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:23:09)
+[2014.06.14-18.23.09:166][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
+[2014.06.14-18.23.09:168][355]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2014.06.14-18.23.09:168][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004347s)
+[2014.06.14-18.23.09:168][355]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.23.09:213][355]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.23.09
+[2014.06.14-18.23.09:213][355]LogWorld: Bringing up level for play took: 0.001330
+[2014.06.14-18.23.09:214][355]LogPlayerController: Spawned spectator SpectatorPawn_8 [server:1]
+[2014.06.14-18.23.09:214][355]LogGameMode: RestartPlayer 264
+[2014.06.14-18.23.09:215][355]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_8
+[2014.06.14-18.23.09:215][355]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_8
+[2014.06.14-18.23.09:217][355]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.23.09:217][355]PIE:Warning: Warning Base_Hud_C_0 Canvas Draw functions may only be called during the handling of the DrawHUD event
+[2014.06.14-18.23.09:227][355]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.026
+[2014.06.14-18.23.13:340][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228B7F60
+[2014.06.14-18.25.45:932][259]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.25.46:926][259]BlueprintEditorCompileResults: Info [0483.56] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.25.48:151][302]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.25.48:151][302]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:25:48)
+[2014.06.14-18.25.48:154][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002204s)
+[2014.06.14-18.25.48:155][302]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2014.06.14-18.25.48:155][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003784s)
+[2014.06.14-18.25.48:156][302]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.25.48:200][302]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.25.48
+[2014.06.14-18.25.48:200][302]LogWorld: Bringing up level for play took: 0.001257
+[2014.06.14-18.25.48:201][302]LogPlayerController: Spawned spectator SpectatorPawn_9 [server:1]
+[2014.06.14-18.25.48:201][302]LogGameMode: RestartPlayer 265
+[2014.06.14-18.25.48:202][302]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_9
+[2014.06.14-18.25.48:202][302]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_9
+[2014.06.14-18.25.48:204][302]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.25.48:214][302]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.959
+[2014.06.14-18.25.52:613][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009E7EE80
+[2014.06.14-18.26.07:739][108]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.26.08:736][108]BlueprintEditorCompileResults: Info [0505.37] Compile of Base_Hud successful! [in 31 ms]
+[2014.06.14-18.26.09:573][136]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.26.09:574][136]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:26:09)
+[2014.06.14-18.26.09:576][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002377s)
+[2014.06.14-18.26.09:577][136]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2014.06.14-18.26.09:577][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003778s)
+[2014.06.14-18.26.09:578][136]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.26.09:621][136]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.26.09
+[2014.06.14-18.26.09:621][136]LogWorld: Bringing up level for play took: 0.001259
+[2014.06.14-18.26.09:622][136]LogPlayerController: Spawned spectator SpectatorPawn_10 [server:1]
+[2014.06.14-18.26.09:622][136]LogGameMode: RestartPlayer 266
+[2014.06.14-18.26.09:623][136]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_10
+[2014.06.14-18.26.09:623][136]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_10
+[2014.06.14-18.26.09:625][136]LogBlueprintUserMessages: Press Q to toggle debug
+[2014.06.14-18.26.09:635][136]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.379
+[2014.06.14-18.26.15:810][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000106EC220
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:124][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.27.01:125][481]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.29.21:863][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.06.14-18.29.21:894][745]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.032
+[2014.06.14-18.29.21:908][745]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Hud/Base_HUD] ([1] browsable assets)...
+[2014.06.14-18.29.21:918][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Hud/Base_HUD]
+[2014.06.14-18.29.22:222][745]LogSavePackage: Save=149.723267ms
+[2014.06.14-18.29.22:223][745]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD_Auto1DF53E1724D4A527197D424A7928FE2ED.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Hud/Base_HUD_Auto1.uasset'
+[2014.06.14-18.29.22:243][745]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Base_Character_BP] ([1] browsable assets)...
+[2014.06.14-18.29.22:281][745]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Base_Character_BP.Base_Character_BP]
+[2014.06.14-18.29.22:281][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Character_BP]
+[2014.06.14-18.29.22:993][745]LogSavePackage: Save=430.298096ms
+[2014.06.14-18.29.22:993][745]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP_Auto178ADA68C4EE34F8DE93D51A6C9BE6A3B.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Character_BP_Auto1.uasset'
+[2014.06.14-18.29.23:020][745]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Base_Player_Controller] ([1] browsable assets)...
+[2014.06.14-18.29.23:034][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Player_Controller]
+[2014.06.14-18.29.23:274][745]LogSavePackage: Save=55.418659ms
+[2014.06.14-18.29.23:274][745]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Player_Controller_Auto1918565C04BD18D5802079D9F62F70909.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Player_Controller_Auto1.uasset'
+[2014.06.14-18.29.23:283][745]LogFileHelpers: Auto-saving content packages took 1.388
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.30.28:270][719]LogGraphPanel:Warning: Found NULL Node in GraphObj array. A node type has been deleted without creating an ActiveClassRedictor to K2Node_DeadClass.
+[2014.06.14-18.32.50:108][284]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.14-18.33.31:346][987]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.33.31:465][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.06.14-18.33.31:497][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D523420
+[2014.06.14-18.33.32:081][987]BlueprintEditorCompileResults: Info [0948.97] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.33.32:624][  4]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-18.33.32:624][  4]LogPlayLevel: [PIE] Compiling Base_Character_BP before PIE...
+[2014.06.14-18.33.33:278][  4]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.14-18.33.34:033][  4]LogPlayLevel: PIE:  Blueprint regeneration took 1408 ms (2 blueprints)
+[2014.06.14-18.33.34:033][  4]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:33:34)
+[2014.06.14-18.33.34:036][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002859s)
+[2014.06.14-18.33.34:037][  4]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2014.06.14-18.33.34:037][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004181s)
+[2014.06.14-18.33.34:038][  4]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.33.34:074][  4]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.33.34
+[2014.06.14-18.33.34:074][  4]LogWorld: Bringing up level for play took: 0.001299
+[2014.06.14-18.33.34:075][  4]LogPlayerController: Spawned spectator SpectatorPawn_11 [server:1]
+[2014.06.14-18.33.34:075][  4]LogGameMode: RestartPlayer 267
+[2014.06.14-18.33.34:076][  4]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_0
+[2014.06.14-18.33.34:076][  4]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_0
+[2014.06.14-18.33.34:083][  4]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.82
+[2014.06.14-18.33.37:690][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025D013A0
+[2014.06.14-18.33.49:954][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:954][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:954][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:954][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:955][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:955][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:955][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:955][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:955][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:955][657]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.33.49:956][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_105934 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_105934
+[2014.06.14-18.33.49:956][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106472 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_106472
+[2014.06.14-18.33.49:958][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106540 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_106540
+[2014.06.14-18.33.49:958][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_106506 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_106506
+[2014.06.14-18.33.49:960][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116186 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116186
+[2014.06.14-18.33.49:961][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116708 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116708
+[2014.06.14-18.33.49:965][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116233
+[2014.06.14-18.33.49:966][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116233 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116233
+[2014.06.14-18.33.49:968][657]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:Draw Quick Bar.K2Node_CallFunction_116708 or K2Node_CallFunction /Game/Blueprints/Hud/Base_HUD.Base_Hud:EventGraph.K2Node_CallFunction_116708
+[2014.06.14-18.33.59:124][ 26]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.33.59:838][ 26]BlueprintEditorCompileResults: Info [0976.74] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.34.00:336][ 43]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.34.00:336][ 43]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:34:00)
+[2014.06.14-18.34.00:338][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002231s)
+[2014.06.14-18.34.00:339][ 43]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2014.06.14-18.34.00:339][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003386s)
+[2014.06.14-18.34.00:340][ 43]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.34.00:381][ 43]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.34.00
+[2014.06.14-18.34.00:381][ 43]LogWorld: Bringing up level for play took: 0.001268
+[2014.06.14-18.34.00:382][ 43]LogPlayerController: Spawned spectator SpectatorPawn_12 [server:1]
+[2014.06.14-18.34.00:382][ 43]LogGameMode: RestartPlayer 268
+[2014.06.14-18.34.00:383][ 43]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_1
+[2014.06.14-18.34.00:383][ 43]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_1
+[2014.06.14-18.34.00:391][ 43]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.872
+[2014.06.14-18.34.04:733][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025D03D80
+[2014.06.14-18.34.39:130][763]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.34.39:871][763]BlueprintEditorCompileResults: Info [1016.75] Compile of Base_Hud successful! [in 28 ms]
+[2014.06.14-18.34.40:399][778]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.34.40:399][778]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:34:40)
+[2014.06.14-18.34.40:402][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002415s)
+[2014.06.14-18.34.40:403][778]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2014.06.14-18.34.40:403][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003598s)
+[2014.06.14-18.34.40:403][778]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.34.40:447][778]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.34.40
+[2014.06.14-18.34.40:447][778]LogWorld: Bringing up level for play took: 0.001268
+[2014.06.14-18.34.40:448][778]LogPlayerController: Spawned spectator SpectatorPawn_13 [server:1]
+[2014.06.14-18.34.40:448][778]LogGameMode: RestartPlayer 269
+[2014.06.14-18.34.40:449][778]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_2
+[2014.06.14-18.34.40:449][778]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_2
+[2014.06.14-18.34.40:460][778]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.804
+[2014.06.14-18.34.50:130][217]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B792700
+[2014.06.14-18.36.04:633][661]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.36.05:354][661]BlueprintEditorCompileResults: Info [1102.25] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.36.06:243][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hud/Base_HUD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Hud/Base_HUD.uasset" SILENT=true
+[2014.06.14-18.36.06:513][692]LogSavePackage: Save=134.941223ms
+[2014.06.14-18.36.06:513][692]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD2CFC217A4C84BE6932BB8BB50213AF28.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Hud/Base_HUD.uasset'
+[2014.06.14-18.36.07:818][749]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.36.07:818][749]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:36:07)
+[2014.06.14-18.36.07:821][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002543s)
+[2014.06.14-18.36.07:822][749]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2014.06.14-18.36.07:822][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003737s)
+[2014.06.14-18.36.07:822][749]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.36.07:861][749]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.36.07
+[2014.06.14-18.36.07:861][749]LogWorld: Bringing up level for play took: 0.001296
+[2014.06.14-18.36.07:862][749]LogPlayerController: Spawned spectator SpectatorPawn_14 [server:1]
+[2014.06.14-18.36.07:862][749]LogGameMode: RestartPlayer 270
+[2014.06.14-18.36.07:863][749]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_3
+[2014.06.14-18.36.07:863][749]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_3
+[2014.06.14-18.36.07:874][749]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.608
+[2014.06.14-18.36.13:192][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026CC9940
+[2014.06.14-18.36.26:112][627]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.36.26:819][627]BlueprintEditorCompileResults: Info [1123.72] Compile of Base_Hud successful! [in 28 ms]
+[2014.06.14-18.36.27:190][636]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.36.27:190][636]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:36:27)
+[2014.06.14-18.36.27:192][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2014.06.14-18.36.27:193][636]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2014.06.14-18.36.27:193][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003315s)
+[2014.06.14-18.36.27:194][636]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.36.27:235][636]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.36.27
+[2014.06.14-18.36.27:236][636]LogWorld: Bringing up level for play took: 0.001425
+[2014.06.14-18.36.27:236][636]LogPlayerController: Spawned spectator SpectatorPawn_15 [server:1]
+[2014.06.14-18.36.27:236][636]LogGameMode: RestartPlayer 271
+[2014.06.14-18.36.27:237][636]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_4
+[2014.06.14-18.36.27:237][636]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_4
+[2014.06.14-18.36.27:247][636]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.018
+[2014.06.14-18.36.34:353][965]LogBlueprintUserMessages: 1st person
+[2014.06.14-18.37.29:414][489]LogBlueprintUserMessages: 10.0
+[2014.06.14-18.38.22:945][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000197005E0
+[2014.06.14-18.39.21:262][554]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.39.21:972][554]BlueprintEditorCompileResults: Info [1298.87] Compile of Base_Hud successful! [in 28 ms]
+[2014.06.14-18.39.22:559][572]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.39.22:559][572]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:39:22)
+[2014.06.14-18.39.22:561][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002285s)
+[2014.06.14-18.39.22:562][572]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2014.06.14-18.39.22:562][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003421s)
+[2014.06.14-18.39.22:563][572]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.39.22:601][572]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.39.22
+[2014.06.14-18.39.22:601][572]LogWorld: Bringing up level for play took: 0.001859
+[2014.06.14-18.39.22:602][572]LogPlayerController: Spawned spectator SpectatorPawn_16 [server:1]
+[2014.06.14-18.39.22:602][572]LogGameMode: RestartPlayer 272
+[2014.06.14-18.39.22:603][572]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_5
+[2014.06.14-18.39.22:603][572]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_5
+[2014.06.14-18.39.22:614][572]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.655
+[2014.06.14-18.39.29:942][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B0740E0
+[2014.06.14-18.40.00:294][298]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.40.01:004][298]BlueprintEditorCompileResults: Info [1337.91] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.40.02:473][354]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.40.02:473][354]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:40:02)
+[2014.06.14-18.40.02:476][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002606s)
+[2014.06.14-18.40.02:477][354]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2014.06.14-18.40.02:477][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003808s)
+[2014.06.14-18.40.02:478][354]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.40.02:520][354]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.40.02
+[2014.06.14-18.40.02:520][354]LogWorld: Bringing up level for play took: 0.001260
+[2014.06.14-18.40.02:521][354]LogPlayerController: Spawned spectator SpectatorPawn_17 [server:1]
+[2014.06.14-18.40.02:521][354]LogGameMode: RestartPlayer 273
+[2014.06.14-18.40.02:522][354]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_6
+[2014.06.14-18.40.02:522][354]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_6
+[2014.06.14-18.40.02:533][354]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.736
+[2014.06.14-18.40.26:717][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B59CEA0
+[2014.06.14-18.40.54:822][786]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.40.55:532][786]BlueprintEditorCompileResults: Info [1392.43] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.40.56:041][804]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.40.56:041][804]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:40:56)
+[2014.06.14-18.40.56:045][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003482s)
+[2014.06.14-18.40.56:046][804]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2014.06.14-18.40.56:046][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004728s)
+[2014.06.14-18.40.56:046][804]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.40.56:087][804]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.40.56
+[2014.06.14-18.40.56:087][804]LogWorld: Bringing up level for play took: 0.001281
+[2014.06.14-18.40.56:088][804]LogPlayerController: Spawned spectator SpectatorPawn_18 [server:1]
+[2014.06.14-18.40.56:088][804]LogGameMode: RestartPlayer 274
+[2014.06.14-18.40.56:090][804]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_7
+[2014.06.14-18.40.56:090][804]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_7
+[2014.06.14-18.40.56:100][804]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.83
+[2014.06.14-18.42.00:299][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000197020C0
+[2014.06.14-18.43.18:753][654]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.43.18:753][654]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:43:18)
+[2014.06.14-18.43.18:757][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003510s)
+[2014.06.14-18.43.18:758][654]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2014.06.14-18.43.18:758][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004909s)
+[2014.06.14-18.43.18:759][654]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.43.18:800][654]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.43.18
+[2014.06.14-18.43.18:801][654]LogWorld: Bringing up level for play took: 0.001334
+[2014.06.14-18.43.18:801][654]LogPlayerController: Spawned spectator SpectatorPawn_19 [server:1]
+[2014.06.14-18.43.18:801][654]LogGameMode: RestartPlayer 275
+[2014.06.14-18.43.18:802][654]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_8
+[2014.06.14-18.43.18:802][654]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_8
+[2014.06.14-18.43.18:814][654]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.458
+[2014.06.14-18.43.39:544][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7785E0
+[2014.06.14-18.43.52:495][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.026
+[2014.06.14-18.43.52:509][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Hud/Base_HUD] ([1] browsable assets)...
+[2014.06.14-18.43.52:521][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Hud/Base_HUD]
+[2014.06.14-18.43.52:793][ 62]LogSavePackage: Save=129.797195ms
+[2014.06.14-18.43.52:794][ 62]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD_Auto2C4A84F3C4638519E70E97B9CC327F0A6.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Hud/Base_HUD_Auto2.uasset'
+[2014.06.14-18.43.52:811][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Characters/Base_Character_BP] ([1] browsable assets)...
+[2014.06.14-18.43.52:844][ 62]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Characters/Base_Character_BP.Base_Character_BP]
+[2014.06.14-18.43.52:844][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Character_BP]
+[2014.06.14-18.43.53:359][ 62]LogSavePackage: Save=373.775848ms
+[2014.06.14-18.43.53:359][ 62]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP_Auto2173D28FC455D39050C4D058F004A7002.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Character_BP_Auto2.uasset'
+[2014.06.14-18.43.53:374][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Base_Player_Controller] ([1] browsable assets)...
+[2014.06.14-18.43.53:387][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Player_Controller]
+[2014.06.14-18.43.53:559][ 62]LogSavePackage: Save=34.792984ms
+[2014.06.14-18.43.53:559][ 62]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Player_Controller_Auto2D6EFC7F7458A32EE17023799BE11BC6C.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Player_Controller_Auto2.uasset'
+[2014.06.14-18.43.53:564][ 62]LogFileHelpers: Auto-saving content packages took 1.069
+[2014.06.14-18.44.51:053][799]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.44.51:162][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.06.14-18.44.51:784][799]BlueprintEditorCompileResults: Info [1628.66] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.44.52:193][810]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.44.52:193][810]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:44:52)
+[2014.06.14-18.44.52:196][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002699s)
+[2014.06.14-18.44.52:197][810]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2014.06.14-18.44.52:197][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003908s)
+[2014.06.14-18.44.52:197][810]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.44.52:238][810]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.44.52
+[2014.06.14-18.44.52:238][810]LogWorld: Bringing up level for play took: 0.001251
+[2014.06.14-18.44.52:239][810]LogPlayerController: Spawned spectator SpectatorPawn_20 [server:1]
+[2014.06.14-18.44.52:239][810]LogGameMode: RestartPlayer 276
+[2014.06.14-18.44.52:240][810]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_9
+[2014.06.14-18.44.52:240][810]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_9
+[2014.06.14-18.44.52:250][810]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.977
+[2014.06.14-18.45.02:666][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023648CC0
+[2014.06.14-18.45.10:057][623]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.45.10:767][623]BlueprintEditorCompileResults: Info [1647.67] Compile of Base_Hud successful! [in 31 ms]
+[2014.06.14-18.45.11:246][638]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.45.11:246][638]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:45:11)
+[2014.06.14-18.45.11:249][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002546s)
+[2014.06.14-18.45.11:250][638]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2014.06.14-18.45.11:250][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003781s)
+[2014.06.14-18.45.11:251][638]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.45.11:289][638]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.45.11
+[2014.06.14-18.45.11:289][638]LogWorld: Bringing up level for play took: 0.001412
+[2014.06.14-18.45.11:290][638]LogPlayerController: Spawned spectator SpectatorPawn_21 [server:1]
+[2014.06.14-18.45.11:290][638]LogGameMode: RestartPlayer 277
+[2014.06.14-18.45.11:291][638]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_10
+[2014.06.14-18.45.11:291][638]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_10
+[2014.06.14-18.45.11:301][638]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.028
+[2014.06.14-18.45.48:950][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B59D760
+[2014.06.14-18.45.51:759][534]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.45.52:471][534]BlueprintEditorCompileResults: Info [1689.37] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.45.53:003][552]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.45.53:003][552]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:45:53)
+[2014.06.14-18.45.53:007][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003999s)
+[2014.06.14-18.45.53:008][552]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2014.06.14-18.45.53:008][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.005230s)
+[2014.06.14-18.45.53:009][552]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.45.53:046][552]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.45.53
+[2014.06.14-18.45.53:046][552]LogWorld: Bringing up level for play took: 0.001299
+[2014.06.14-18.45.53:046][552]LogPlayerController: Spawned spectator SpectatorPawn_22 [server:1]
+[2014.06.14-18.45.53:047][552]LogGameMode: RestartPlayer 278
+[2014.06.14-18.45.53:048][552]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_11
+[2014.06.14-18.45.53:048][552]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_11
+[2014.06.14-18.45.53:059][552]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.216
+[2014.06.14-18.45.57:939][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BCF8B80
+[2014.06.14-18.46.12:848][374]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.06.14-18.46.22:058][804]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.46.22:785][804]BlueprintEditorCompileResults: Info [1719.67] Compile of Base_Hud successful! [in 31 ms]
+[2014.06.14-18.46.23:273][819]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.46.23:273][819]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:46:23)
+[2014.06.14-18.46.23:275][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002176s)
+[2014.06.14-18.46.23:276][819]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2014.06.14-18.46.23:276][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003304s)
+[2014.06.14-18.46.23:277][819]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.46.23:316][819]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.46.23
+[2014.06.14-18.46.23:316][819]LogWorld: Bringing up level for play took: 0.001258
+[2014.06.14-18.46.23:317][819]LogPlayerController: Spawned spectator SpectatorPawn_23 [server:1]
+[2014.06.14-18.46.23:317][819]LogGameMode: RestartPlayer 279
+[2014.06.14-18.46.23:318][819]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_12
+[2014.06.14-18.46.23:318][819]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_12
+[2014.06.14-18.46.23:328][819]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.053
+[2014.06.14-18.46.50:742][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023649BC0
+[2014.06.14-18.46.55:138][322]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.46.55:841][322]BlueprintEditorCompileResults: Info [1752.74] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.46.56:197][332]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.46.56:197][332]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:46:56)
+[2014.06.14-18.46.56:199][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002240s)
+[2014.06.14-18.46.56:200][332]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2014.06.14-18.46.56:200][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003292s)
+[2014.06.14-18.46.56:201][332]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.46.56:256][332]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.46.56
+[2014.06.14-18.46.56:256][332]LogWorld: Bringing up level for play took: 0.001269
+[2014.06.14-18.46.56:257][332]LogPlayerController: Spawned spectator SpectatorPawn_24 [server:1]
+[2014.06.14-18.46.56:257][332]LogGameMode: RestartPlayer 280
+[2014.06.14-18.46.56:258][332]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_13
+[2014.06.14-18.46.56:258][332]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_13
+[2014.06.14-18.46.56:268][332]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.993
+[2014.06.14-18.47.05:358][755]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D181940
+[2014.06.14-18.47.12:814][112]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.47.12:814][112]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.47.12:814][112]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.47.12:814][112]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.47.12:814][112]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-18.47.33:190][ 89]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.47.33:897][ 89]BlueprintEditorCompileResults: Info [1790.79] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-18.47.50:406][823]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.06.14-18.51.50:047][789]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.51.50:839][789]BlueprintEditorCompileResults: Info [2047.66] Compile of Base_Hud successful! [in 45 ms]
+[2014.06.14-18.51.51:278][802]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.51.51:278][802]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:51:51)
+[2014.06.14-18.51.51:280][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002222s)
+[2014.06.14-18.51.51:281][802]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2014.06.14-18.51.51:282][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003417s)
+[2014.06.14-18.51.51:282][802]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.51.51:322][802]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.51.51
+[2014.06.14-18.51.51:322][802]LogWorld: Bringing up level for play took: 0.002267
+[2014.06.14-18.51.51:323][802]LogPlayerController: Spawned spectator SpectatorPawn_25 [server:1]
+[2014.06.14-18.51.51:323][802]LogGameMode: RestartPlayer 281
+[2014.06.14-18.51.51:324][802]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_14
+[2014.06.14-18.51.51:324][802]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_14
+[2014.06.14-18.51.51:334][802]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.054
+[2014.06.14-18.52.06:107][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026616E80
+[2014.06.14-18.52.36:236][807]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.52.36:955][807]BlueprintEditorCompileResults: Info [2093.83] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-18.52.37:485][825]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-18.52.37:485][825]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:52:37)
+[2014.06.14-18.52.37:487][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002255s)
+[2014.06.14-18.52.37:490][825]LogPlayLevel: PIE: World Init took: (0.002222s)
+[2014.06.14-18.52.37:490][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004695s)
+[2014.06.14-18.52.37:490][825]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.52.37:526][825]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.52.37
+[2014.06.14-18.52.37:526][825]LogWorld: Bringing up level for play took: 0.001259
+[2014.06.14-18.52.37:527][825]LogPlayerController: Spawned spectator SpectatorPawn_26 [server:1]
+[2014.06.14-18.52.37:527][825]LogGameMode: RestartPlayer 282
+[2014.06.14-18.52.37:528][825]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_15
+[2014.06.14-18.52.37:528][825]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_15
+[2014.06.14-18.52.37:538][825]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.257
+[2014.06.14-18.55.05:035][846]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023726CA0
+[2014.06.14-18.55.15:118][298]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.06.14-18.55.15:130][298]LogPlayLevel: [PIE] Compiling Base_Hud before PIE...
+[2014.06.14-18.55.15:842][298]LogPlayLevel: PIE:  Blueprint regeneration took 724 ms (1 blueprints)
+[2014.06.14-18.55.15:842][298]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 20:55:15)
+[2014.06.14-18.55.15:845][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002754s)
+[2014.06.14-18.55.15:846][298]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2014.06.14-18.55.15:847][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004148s)
+[2014.06.14-18.55.15:847][298]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-18.55.15:885][298]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-19.55.15
+[2014.06.14-18.55.15:886][298]LogWorld: Bringing up level for play took: 0.001281
+[2014.06.14-18.55.15:886][298]LogPlayerController: Spawned spectator SpectatorPawn_27 [server:1]
+[2014.06.14-18.55.15:886][298]LogGameMode: RestartPlayer 283
+[2014.06.14-18.55.15:887][298]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_16
+[2014.06.14-18.55.15:887][298]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_16
+[2014.06.14-18.55.15:894][298]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.61
+[2014.06.14-18.55.19:344][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026681D00
+[2014.06.14-18.58.12:348][821]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.035
+[2014.06.14-18.58.12:362][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Hud/Base_HUD] ([1] browsable assets)...
+[2014.06.14-18.58.12:377][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Hud/Base_HUD]
+[2014.06.14-18.58.12:658][821]LogSavePackage: Save=135.910385ms
+[2014.06.14-18.58.12:659][821]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUD_Auto345B15EAB4E2A17F947A2F988B9B789A3.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Hud/Base_HUD_Auto3.uasset'
+[2014.06.14-18.58.12:676][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Base_Character_BP] ([1] browsable assets)...
+[2014.06.14-18.58.12:692][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Character_BP]
+[2014.06.14-18.58.12:912][821]LogSavePackage: Save=79.865440ms
+[2014.06.14-18.58.12:912][821]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BP_Auto310098A074ED9D4CAFC082D922D508175.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Character_BP_Auto3.uasset'
+[2014.06.14-18.58.12:928][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Base_Player_Controller] ([1] browsable assets)...
+[2014.06.14-18.58.12:942][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Base_Player_Controller]
+[2014.06.14-18.58.13:120][821]LogSavePackage: Save=36.855484ms
+[2014.06.14-18.58.13:120][821]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Player_Controller_Auto39204D28A4B25E1494D0A3392F0966658.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Autosaves/Game/Blueprints/Characters/Base_Player_Controller_Auto3.uasset'
+[2014.06.14-18.58.13:126][821]LogFileHelpers: Auto-saving content packages took 0.777
+[2014.06.14-18.58.13:501][838]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-18.58.14:238][838]BlueprintEditorCompileResults: Info [2431.10] Compile of Base_Hud successful! [in 31 ms]
+[2014.06.14-19.00.11:579][917]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-19.00.12:343][917]BlueprintEditorCompileResults: Info [2549.17] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-19.00.12:995][936]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-19.00.12:996][936]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 21:00:12)
+[2014.06.14-19.00.12:999][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002809s)
+[2014.06.14-19.00.13:000][936]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2014.06.14-19.00.13:000][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004080s)
+[2014.06.14-19.00.13:000][936]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-19.00.13:046][936]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-20.00.13
+[2014.06.14-19.00.13:046][936]LogWorld: Bringing up level for play took: 0.001262
+[2014.06.14-19.00.13:047][936]LogPlayerController: Spawned spectator SpectatorPawn_28 [server:1]
+[2014.06.14-19.00.13:047][936]LogGameMode: RestartPlayer 284
+[2014.06.14-19.00.13:049][936]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_17
+[2014.06.14-19.00.13:049][936]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_17
+[2014.06.14-19.00.13:059][936]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.229
+[2014.06.14-19.00.18:469][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026680860
+[2014.06.14-19.00.28:749][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:749][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:750][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:750][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:750][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:750][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:750][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.00.28:750][599]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.06.14-19.01.10:505][370]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-19.01.11:262][370]BlueprintEditorCompileResults: Info [2608.10] Compile of Base_Hud successful! [in 29 ms]
+[2014.06.14-19.01.11:803][384]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.06.14-19.01.11:803][384]PIE: New page: PIE session: Untitled_1 (14 Jun 2014 21:01:11)
+[2014.06.14-19.01.11:806][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002992s)
+[2014.06.14-19.01.11:809][384]LogPlayLevel: PIE: World Init took: (0.002894s)
+[2014.06.14-19.01.11:809][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.006096s)
+[2014.06.14-19.01.11:810][384]LogWorld: Game class is 'BaseGameMode_BP_C'
+[2014.06.14-19.01.11:850][384]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 0) at 2014.06.14-20.01.11
+[2014.06.14-19.01.11:850][384]LogWorld: Bringing up level for play took: 0.001348
+[2014.06.14-19.01.11:851][384]LogPlayerController: Spawned spectator SpectatorPawn_29 [server:1]
+[2014.06.14-19.01.11:851][384]LogGameMode: RestartPlayer 285
+[2014.06.14-19.01.11:852][384]LogPlayerController: ClientRestart_Implementation Base_Character_BP_C_18
+[2014.06.14-19.01.11:852][384]LogPlayerController: ServerAcknowledgePossession_Implementation Base_Character_BP_C_18
+[2014.06.14-19.01.11:863][384]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.574
+[2014.06.14-19.01.15:100][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D621F80
+[2014.06.14-19.01.42:475][677]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-19.01.43:201][677]BlueprintEditorCompileResults: Info [2640.07] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-19.02.41:369][140]BlueprintLog: New page: Compile Base_Hud
+[2014.06.14-19.02.42:150][140]BlueprintEditorCompileResults: Info [2698.96] Compile of Base_Hud successful! [in 30 ms]
+[2014.06.14-19.02.42:505][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Hud/Base_HUD" FILE="../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Hud/Base_HUD.uasset" SILENT=true
+[2014.06.14-19.02.42:772][147]LogSavePackage: Save=140.504761ms
+[2014.06.14-19.02.42:772][147]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_HUDC5509C4149FEB97BD305098B5E8B78C0.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Hud/Base_HUD.uasset'
+[2014.06.14-19.02.44:406][220]LogSavePackage: Save=47.491371ms
+[2014.06.14-19.02.44:407][220]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Player_Controller5AD2C2CC4BB85D6B8C8E4889DF8AF051.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Player_Controller.uasset'
+[2014.06.14-19.02.47:399][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B872520
+[2014.06.14-19.02.47:399][448]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FD47420
+[2014.06.14-19.02.52:404][448]LogSavePackage: Save=79.430084ms
+[2014.06.14-19.02.52:404][448]LogSavePackage: Moving '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Saved/Base_Character_BPEE995BE64F4475ACD30F029DA3AF4B29.tmp' to '../../../../../../Users/Shaun/Documents/Unreal Projects/Base_Project/Content/Blueprints/Characters/Base_Character_BP.uasset'
+[2014.06.14-19.02.52:919][449]Cmd: QUIT_EDITOR
+[2014.06.14-19.02.52:999][449]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.06.14-19.02.53:001][449]LogExit: Preparing to exit.
+[2014.06.14-19.02.53:327][449]LogExit: Editor shut down
+[2014.06.14-19.02.53:327][449]LogExit: Transaction tracking system shut down
+[2014.06.14-19.02.53:328][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000009E7C400
+[2014.06.14-19.02.53:329][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BCFAC00
+[2014.06.14-19.02.53:367][449]LogExit: Object subsystem successfully closed.
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (164)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module CrashTracker (162)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module NewsFeed (160)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module SceneOutliner (159)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module EditorWidgets (158)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module CollectionManager (157)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module StatsViewer (156)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.06.14-19.02.53:402][449]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.06.14-19.02.53:409][449]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.06.14-19.02.53:409][449]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.06.14-19.02.53:409][449]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.06.14-19.02.53:409][449]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.06.14-19.02.53:409][449]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.06.14-19.02.53:409][449]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.06.14-19.02.53:410][449]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.06.14-19.02.53:411][449]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.06.14-19.02.53:413][449]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.06.14-19.02.53:444][449]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.06.14-19.02.53:466][449]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.06.14-19.02.53:466][449]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.06.14-19.02.53:466][449]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.06.14-19.02.53:466][449]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.06.14-19.02.53:466][449]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.06.14-19.02.53:466][449]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.06.14-19.02.53:467][449]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.06.14-19.02.53:469][449]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.06.14-19.02.53:496][449]LogDerivedDataCache: Shutdown
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.06.14-19.02.53:496][449]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.06.14-19.02.53:500][449]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.06.14-19.02.53:500][449]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.06.14-19.02.53:500][449]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.06.14-19.02.53:500][449]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.06.14-19.02.53:500][449]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.06.14-19.02.53:600][449]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.06.14-19.02.53:600][449]LogExit: Exiting.
+[2014.06.14-19.02.53:604][449]Log file closed, 06/14/14 20:02:53
